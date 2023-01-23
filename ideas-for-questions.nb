@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    117096,       2277]
-NotebookOptionsPosition[      2217,         75]
-NotebookOutlinePosition[    115758,       2246]
-CellTagsIndexPosition[    115377,       2232]
+NotebookDataLength[    255718,       5244]
+NotebookOptionsPosition[    133828,       2884]
+NotebookOutlinePosition[    247355,       5055]
+CellTagsIndexPosition[    246974,       5041]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -70,11 +70,2820 @@ Cell["XXXX", "Item",
 
 Cell["XXXX", "Item",
  CellID->316654538,ExpressionUUID->"8090181c-e17a-4c99-bc3c-696fb19cb01c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["ideas for questions", "Section",
+ CellChangeTimes->{{3.8834217838634763`*^9, 3.8834217906121025`*^9}},
+ CellID->357610756,ExpressionUUID->"4c8d536a-78f7-4784-96b9-dd28b5d47887"],
+
+Cell["\<\
+What is the SI unit for length?
+What is the value of the speed of light in meters per second?\
+\>", "Text",
+ CellChangeTimes->{{3.883421799012537*^9, 3.883421819374756*^9}},
+ CellID->788622175,ExpressionUUID->"15f37a6b-dbbd-40eb-9ab2-53f1724f795f"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"$SIUnit$Length", "=", 
+  RowBox[{"QuestionObject", "[", 
+   RowBox[{"\"\<What is the SI unit of length?\>\"", ",", 
+    RowBox[{"AssessmentFunction", "[", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"\"\<second\>\"", "->", "False"}], ",", 
+       RowBox[{"\"\<candela\>\"", "->", "False"}], ",", 
+       RowBox[{"\"\<meter\>\"", "->", "True"}], ",", 
+       RowBox[{"\"\<kilogram\>\"", "->", "False"}]}], "}"}], "]"}]}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.8834218936439095`*^9, 3.883421899299329*^9}},
+ CellLabel->"In[2]:=",
+ CellID->577054706,ExpressionUUID->"9cb86b96-d973-4a67-9027-f1af24000b7e"],
+
+Cell[BoxData[
+ InterpretationBox[
+  DynamicModuleBox[{QuestionFramework`Private`input$$ = "", 
+   QuestionFramework`Private`result$$ = "", 
+   QuestionFramework`Private`buttonenabled$$ = True, 
+   QuestionFramework`Private`submissionCount$$ = 0, 
+   QuestionFramework`Private`submittedvalue$$ = "", 
+   QuestionFramework`Private`ch$$ = {
+   "candela", "kilogram", "meter", "second"}}, 
+   DynamicBox[ToBoxes[
+     Framed[
+      Grid[{{"What is the SI unit of length?", SpanFromLeft}, {
+         RadioButtonBar[
+          Dynamic[QuestionFramework`Private`input$$], 
+          QuestionFramework`Private`ch$$, Appearance -> "Vertical"], 
+         QuestionFramework`Private`generalquestionTest[
+         QuestionFramework`Private`result$$, 
+          QuestionFramework`Private`input$$, 
+          QuestionFramework`Private`submittedvalue$$, 
+          
+          AssessmentFunction[{
+           "second" -> False, "candela" -> False, "meter" -> True, "kilogram" -> 
+            False}]]}, {
+         If[
+          Or[
+          AssessmentFunction[{
+             "second" -> False, "candela" -> False, "meter" -> True, 
+              "kilogram" -> False}] === None, CurrentValue[
+             EvaluationNotebook[], {
+             TaggingRules, "FormNotebook", "SubmissionOptions", 
+              "GroupSubmissionFlag"}] === True], "", 
+          QuestionFramework`Private`submitButton[
+          QuestionFramework`Private`result$$ = 
+            AssessmentFunction[{
+              "second" -> False, "candela" -> False, "meter" -> True, 
+               "kilogram" -> False}][
+             QuestionFramework`Private`input$$, "SubmissionCount" -> 
+              QuestionFramework`Private`submissionCount$$]; 
+           QuestionFramework`Private`submittedvalue$$ = 
+            QuestionFramework`Private`input$$; 
+           QuestionFramework`Private`submissionCount$$ = 
+            QuestionFramework`Private`getSubmissionCount[
+             QuestionFramework`Private`result$$]; 
+           QuestionFramework`Private`buttonenabled$$ = If[
+              QuestionFramework`Private`reachedMaxSubmissionsQ[
+              QuestionFramework`Private`result$$, 
+               QuestionFramework`Private`submissionCount$$], False, True, 
+              True]]], 
+         If[
+         Head[QuestionFramework`Private`result$$] === AssessmentResultObject, 
+          Row[{
+            If[Head[
+               QuestionFramework`Private`result$$["Explanation"]] === String, 
+             QuestionFramework`Private`result$$["Explanation"], ""]}, 
+           Spacer[5]], ""], SpanFromLeft}}, Alignment -> Left, 
+       Spacings -> {1, 1}], ImageSize -> If[
+        MatchQ[
+         CurrentValue[
+          EvaluationNotebook[], TaggingRules], 
+         KeyValuePattern["FormNotebook" -> Blank[List]]], {Full, Automatic}, 
+        Automatic], Background -> GrayLevel[1], FrameStyle -> 
+      RGBColor[0.7490196078431373, 0.7490196078431373, 0.7490196078431373], 
+      RoundingRadius -> 5, FrameMargins -> 10, BaseStyle -> "Panel"], 
+     StandardForm],
+    ImageSizeCache->{138., {59.433593688416295`, 63.566406311583705`}},
+    TrackedSymbols:>{
+     QuestionFramework`Private`result$$, QuestionFramework`Private`input$$, 
+      QuestionFramework`Private`submittedvalue$$}],
+   DynamicModuleValues:>{}],
+  QuestionObject[
+   QuestionInterface[Automatic, "What is the SI unit of length?"], 
+   AssessmentFunction[{
+    "second" -> False, "candela" -> False, "meter" -> True, "kilogram" -> 
+     False}]]]], "Output",
+ CellChangeTimes->{{3.8834218873150406`*^9, 3.8834218995957966`*^9}},
+ CellLabel->"Out[2]=",
+ CellID->32402721,ExpressionUUID->"0a29737c-f04e-4979-b537-5d8457f78331"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["$SIUnit$Length"], "Input",
+ CellChangeTimes->{{3.8834219002453594`*^9, 3.883421901077383*^9}},
+ CellLabel->"In[3]:=",
+ CellID->359644712,ExpressionUUID->"d763dbda-ed4f-47ae-8bb3-3a1979d65cf0"],
+
+Cell[BoxData[
+ InterpretationBox[
+  DynamicModuleBox[{QuestionFramework`Private`input$$ = "candela", 
+   QuestionFramework`Private`result$$ = 
+   AssessmentResultObject[<|
+    "Score" -> 0, "MaxScore" -> 1, "MinScore" -> 0, "AnswerCorrect" -> False, 
+     "GivenAnswer" -> "candela", "Explanation" -> None, "Timestamp" -> 
+     DateObject[{2023, 1, 22, 19, 18, 23.5612031`9.12477238938185}, "Instant",
+        "Gregorian", -5.], "AssessmentOptions" -> {}, 
+     "AnswerComparisonMethod" -> "String", "SubmissionCount" -> 1|>], 
+   QuestionFramework`Private`buttonenabled$$ = True, 
+   QuestionFramework`Private`submissionCount$$ = 1, 
+   QuestionFramework`Private`submittedvalue$$ = "candela", 
+   QuestionFramework`Private`ch$$ = {
+   "candela", "kilogram", "meter", "second"}}, 
+   DynamicBox[ToBoxes[
+     Framed[
+      Grid[{{"What is the SI unit of length?", SpanFromLeft}, {
+         RadioButtonBar[
+          Dynamic[QuestionFramework`Private`input$$], 
+          QuestionFramework`Private`ch$$, Appearance -> "Vertical"], 
+         QuestionFramework`Private`generalquestionTest[
+         QuestionFramework`Private`result$$, 
+          QuestionFramework`Private`input$$, 
+          QuestionFramework`Private`submittedvalue$$, 
+          
+          AssessmentFunction[{
+           "second" -> False, "candela" -> False, "meter" -> True, "kilogram" -> 
+            False}]]}, {
+         If[
+          Or[
+          AssessmentFunction[{
+             "second" -> False, "candela" -> False, "meter" -> True, 
+              "kilogram" -> False}] === None, CurrentValue[
+             EvaluationNotebook[], {
+             TaggingRules, "FormNotebook", "SubmissionOptions", 
+              "GroupSubmissionFlag"}] === True], "", 
+          QuestionFramework`Private`submitButton[
+          QuestionFramework`Private`result$$ = 
+            AssessmentFunction[{
+              "second" -> False, "candela" -> False, "meter" -> True, 
+               "kilogram" -> False}][
+             QuestionFramework`Private`input$$, "SubmissionCount" -> 
+              QuestionFramework`Private`submissionCount$$]; 
+           QuestionFramework`Private`submittedvalue$$ = 
+            QuestionFramework`Private`input$$; 
+           QuestionFramework`Private`submissionCount$$ = 
+            QuestionFramework`Private`getSubmissionCount[
+             QuestionFramework`Private`result$$]; 
+           QuestionFramework`Private`buttonenabled$$ = If[
+              QuestionFramework`Private`reachedMaxSubmissionsQ[
+              QuestionFramework`Private`result$$, 
+               QuestionFramework`Private`submissionCount$$], False, True, 
+              True]]], 
+         If[
+         Head[QuestionFramework`Private`result$$] === AssessmentResultObject, 
+          Row[{
+            If[Head[
+               QuestionFramework`Private`result$$["Explanation"]] === String, 
+             QuestionFramework`Private`result$$["Explanation"], ""]}, 
+           Spacer[5]], ""], SpanFromLeft}}, Alignment -> Left, 
+       Spacings -> {1, 1}], ImageSize -> If[
+        MatchQ[
+         CurrentValue[
+          EvaluationNotebook[], TaggingRules], 
+         KeyValuePattern["FormNotebook" -> Blank[List]]], {Full, Automatic}, 
+        Automatic], Background -> GrayLevel[1], FrameStyle -> 
+      RGBColor[0.7490196078431373, 0.7490196078431373, 0.7490196078431373], 
+      RoundingRadius -> 5, FrameMargins -> 10, BaseStyle -> "Panel"], 
+     StandardForm],
+    ImageSizeCache->{138., {59.433593688416295`, 63.566406311583705`}},
+    TrackedSymbols:>{
+     QuestionFramework`Private`result$$, QuestionFramework`Private`input$$, 
+      QuestionFramework`Private`submittedvalue$$}],
+   DynamicModuleValues:>{}],
+  QuestionObject[
+   QuestionInterface[Automatic, "What is the SI unit of length?"], 
+   AssessmentFunction[{
+    "second" -> False, "candela" -> False, "meter" -> True, "kilogram" -> 
+     False}]]]], "Output",
+ CellChangeTimes->{3.8834219012644925`*^9},
+ CellLabel->"Out[3]=",
+ CellID->82156915,ExpressionUUID->"da07d483-0d37-4e81-8ec5-47e9c7390e62"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["$SIUnit$Length"], "Input",
+ CellChangeTimes->{{3.8834219002453594`*^9, 3.8834219055764275`*^9}},
+ CellLabel->"In[4]:=",
+ CellID->119805479,ExpressionUUID->"f6515c16-e092-42dc-ba83-0303d9612f23"],
+
+Cell[BoxData[
+ InterpretationBox[
+  DynamicModuleBox[{QuestionFramework`Private`input$$ = "kilogram", 
+   QuestionFramework`Private`result$$ = 
+   AssessmentResultObject[<|
+    "Score" -> 0, "MaxScore" -> 1, "MinScore" -> 0, "AnswerCorrect" -> False, 
+     "GivenAnswer" -> "kilogram", "Explanation" -> None, "Timestamp" -> 
+     DateObject[{2023, 1, 22, 19, 18, 28.8241768`9.212331825761144}, 
+       "Instant", "Gregorian", -5.], "AssessmentOptions" -> {}, 
+     "AnswerComparisonMethod" -> "String", "SubmissionCount" -> 1|>], 
+   QuestionFramework`Private`buttonenabled$$ = True, 
+   QuestionFramework`Private`submissionCount$$ = 1, 
+   QuestionFramework`Private`submittedvalue$$ = "kilogram", 
+   QuestionFramework`Private`ch$$ = {
+   "candela", "kilogram", "meter", "second"}}, 
+   DynamicBox[ToBoxes[
+     Framed[
+      Grid[{{"What is the SI unit of length?", SpanFromLeft}, {
+         RadioButtonBar[
+          Dynamic[QuestionFramework`Private`input$$], 
+          QuestionFramework`Private`ch$$, Appearance -> "Vertical"], 
+         QuestionFramework`Private`generalquestionTest[
+         QuestionFramework`Private`result$$, 
+          QuestionFramework`Private`input$$, 
+          QuestionFramework`Private`submittedvalue$$, 
+          
+          AssessmentFunction[{
+           "second" -> False, "candela" -> False, "meter" -> True, "kilogram" -> 
+            False}]]}, {
+         If[
+          Or[
+          AssessmentFunction[{
+             "second" -> False, "candela" -> False, "meter" -> True, 
+              "kilogram" -> False}] === None, CurrentValue[
+             EvaluationNotebook[], {
+             TaggingRules, "FormNotebook", "SubmissionOptions", 
+              "GroupSubmissionFlag"}] === True], "", 
+          QuestionFramework`Private`submitButton[
+          QuestionFramework`Private`result$$ = 
+            AssessmentFunction[{
+              "second" -> False, "candela" -> False, "meter" -> True, 
+               "kilogram" -> False}][
+             QuestionFramework`Private`input$$, "SubmissionCount" -> 
+              QuestionFramework`Private`submissionCount$$]; 
+           QuestionFramework`Private`submittedvalue$$ = 
+            QuestionFramework`Private`input$$; 
+           QuestionFramework`Private`submissionCount$$ = 
+            QuestionFramework`Private`getSubmissionCount[
+             QuestionFramework`Private`result$$]; 
+           QuestionFramework`Private`buttonenabled$$ = If[
+              QuestionFramework`Private`reachedMaxSubmissionsQ[
+              QuestionFramework`Private`result$$, 
+               QuestionFramework`Private`submissionCount$$], False, True, 
+              True]]], 
+         If[
+         Head[QuestionFramework`Private`result$$] === AssessmentResultObject, 
+          Row[{
+            If[Head[
+               QuestionFramework`Private`result$$["Explanation"]] === String, 
+             QuestionFramework`Private`result$$["Explanation"], ""]}, 
+           Spacer[5]], ""], SpanFromLeft}}, Alignment -> Left, 
+       Spacings -> {1, 1}], ImageSize -> If[
+        MatchQ[
+         CurrentValue[
+          EvaluationNotebook[], TaggingRules], 
+         KeyValuePattern["FormNotebook" -> Blank[List]]], {Full, Automatic}, 
+        Automatic], Background -> GrayLevel[1], FrameStyle -> 
+      RGBColor[0.7490196078431373, 0.7490196078431373, 0.7490196078431373], 
+      RoundingRadius -> 5, FrameMargins -> 10, BaseStyle -> "Panel"], 
+     StandardForm],
+    ImageSizeCache->{138., {59.433593688416295`, 63.566406311583705`}},
+    TrackedSymbols:>{
+     QuestionFramework`Private`result$$, QuestionFramework`Private`input$$, 
+      QuestionFramework`Private`submittedvalue$$}],
+   DynamicModuleValues:>{}],
+  QuestionObject[
+   QuestionInterface[Automatic, "What is the SI unit of length?"], 
+   AssessmentFunction[{
+    "second" -> False, "candela" -> False, "meter" -> True, "kilogram" -> 
+     False}]]]], "Output",
+ CellChangeTimes->{3.883421905902584*^9},
+ CellLabel->"Out[4]=",
+ CellID->259694791,ExpressionUUID->"9f6a6d25-e988-4b18-a142-a498e5fe9db8"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["$SIUnit$Length"], "Input",
+ CellChangeTimes->{{3.8834219002453594`*^9, 3.8834219104644575`*^9}},
+ CellLabel->"In[5]:=",
+ CellID->436471380,ExpressionUUID->"74edf4af-5327-402c-a8c0-6fdeff214e81"],
+
+Cell[BoxData[
+ InterpretationBox[
+  DynamicModuleBox[{QuestionFramework`Private`input$$ = "meter", 
+   QuestionFramework`Private`result$$ = 
+   AssessmentResultObject[<|
+    "Score" -> 1, "MaxScore" -> 1, "MinScore" -> 0, "AnswerCorrect" -> True, 
+     "GivenAnswer" -> "meter", "Explanation" -> None, "Timestamp" -> 
+     DateObject[{2023, 1, 22, 19, 18, 34.2049739`9.286664159797573}, 
+       "Instant", "Gregorian", -5.], "AssessmentOptions" -> {}, 
+     "AnswerComparisonMethod" -> "String", "SubmissionCount" -> 1|>], 
+   QuestionFramework`Private`buttonenabled$$ = True, 
+   QuestionFramework`Private`submissionCount$$ = 1, 
+   QuestionFramework`Private`submittedvalue$$ = "meter", 
+   QuestionFramework`Private`ch$$ = {
+   "candela", "kilogram", "meter", "second"}}, 
+   DynamicBox[ToBoxes[
+     Framed[
+      Grid[{{"What is the SI unit of length?", SpanFromLeft}, {
+         RadioButtonBar[
+          Dynamic[QuestionFramework`Private`input$$], 
+          QuestionFramework`Private`ch$$, Appearance -> "Vertical"], 
+         QuestionFramework`Private`generalquestionTest[
+         QuestionFramework`Private`result$$, 
+          QuestionFramework`Private`input$$, 
+          QuestionFramework`Private`submittedvalue$$, 
+          
+          AssessmentFunction[{
+           "second" -> False, "candela" -> False, "meter" -> True, "kilogram" -> 
+            False}]]}, {
+         If[
+          Or[
+          AssessmentFunction[{
+             "second" -> False, "candela" -> False, "meter" -> True, 
+              "kilogram" -> False}] === None, CurrentValue[
+             EvaluationNotebook[], {
+             TaggingRules, "FormNotebook", "SubmissionOptions", 
+              "GroupSubmissionFlag"}] === True], "", 
+          QuestionFramework`Private`submitButton[
+          QuestionFramework`Private`result$$ = 
+            AssessmentFunction[{
+              "second" -> False, "candela" -> False, "meter" -> True, 
+               "kilogram" -> False}][
+             QuestionFramework`Private`input$$, "SubmissionCount" -> 
+              QuestionFramework`Private`submissionCount$$]; 
+           QuestionFramework`Private`submittedvalue$$ = 
+            QuestionFramework`Private`input$$; 
+           QuestionFramework`Private`submissionCount$$ = 
+            QuestionFramework`Private`getSubmissionCount[
+             QuestionFramework`Private`result$$]; 
+           QuestionFramework`Private`buttonenabled$$ = If[
+              QuestionFramework`Private`reachedMaxSubmissionsQ[
+              QuestionFramework`Private`result$$, 
+               QuestionFramework`Private`submissionCount$$], False, True, 
+              True]]], 
+         If[
+         Head[QuestionFramework`Private`result$$] === AssessmentResultObject, 
+          Row[{
+            If[Head[
+               QuestionFramework`Private`result$$["Explanation"]] === String, 
+             QuestionFramework`Private`result$$["Explanation"], ""]}, 
+           Spacer[5]], ""], SpanFromLeft}}, Alignment -> Left, 
+       Spacings -> {1, 1}], ImageSize -> If[
+        MatchQ[
+         CurrentValue[
+          EvaluationNotebook[], TaggingRules], 
+         KeyValuePattern["FormNotebook" -> Blank[List]]], {Full, Automatic}, 
+        Automatic], Background -> GrayLevel[1], FrameStyle -> 
+      RGBColor[0.7490196078431373, 0.7490196078431373, 0.7490196078431373], 
+      RoundingRadius -> 5, FrameMargins -> 10, BaseStyle -> "Panel"], 
+     StandardForm],
+    ImageSizeCache->{138., {59.433593688416295`, 63.566406311583705`}},
+    TrackedSymbols:>{
+     QuestionFramework`Private`result$$, QuestionFramework`Private`input$$, 
+      QuestionFramework`Private`submittedvalue$$}],
+   DynamicModuleValues:>{}],
+  QuestionObject[
+   QuestionInterface[Automatic, "What is the SI unit of length?"], 
+   AssessmentFunction[{
+    "second" -> False, "candela" -> False, "meter" -> True, "kilogram" -> 
+     False}]]]], "Output",
+ CellChangeTimes->{3.883421910807914*^9},
+ CellLabel->"Out[5]=",
+ CellID->6589608,ExpressionUUID->"f792999c-bc2d-4020-a7d4-e2f6648046a1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["$SIUnit$Length"], "Input",
+ CellChangeTimes->{{3.8834219002453594`*^9, 3.8834219158675804`*^9}},
+ CellLabel->"In[6]:=",
+ CellID->78506887,ExpressionUUID->"40acde37-3a3f-4420-951e-82d9675a6039"],
+
+Cell[BoxData[
+ InterpretationBox[
+  DynamicModuleBox[{QuestionFramework`Private`input$$ = "second", 
+   QuestionFramework`Private`result$$ = 
+   AssessmentResultObject[<|
+    "Score" -> 0, "MaxScore" -> 1, "MinScore" -> 0, "AnswerCorrect" -> False, 
+     "GivenAnswer" -> "second", "Explanation" -> None, "Timestamp" -> 
+     DateObject[{2023, 1, 22, 19, 18, 39.3980882`9.348050030897786}, 
+       "Instant", "Gregorian", -5.], "AssessmentOptions" -> {}, 
+     "AnswerComparisonMethod" -> "String", "SubmissionCount" -> 1|>], 
+   QuestionFramework`Private`buttonenabled$$ = True, 
+   QuestionFramework`Private`submissionCount$$ = 1, 
+   QuestionFramework`Private`submittedvalue$$ = "second", 
+   QuestionFramework`Private`ch$$ = {
+   "candela", "kilogram", "meter", "second"}}, 
+   DynamicBox[ToBoxes[
+     Framed[
+      Grid[{{"What is the SI unit of length?", SpanFromLeft}, {
+         RadioButtonBar[
+          Dynamic[QuestionFramework`Private`input$$], 
+          QuestionFramework`Private`ch$$, Appearance -> "Vertical"], 
+         QuestionFramework`Private`generalquestionTest[
+         QuestionFramework`Private`result$$, 
+          QuestionFramework`Private`input$$, 
+          QuestionFramework`Private`submittedvalue$$, 
+          
+          AssessmentFunction[{
+           "second" -> False, "candela" -> False, "meter" -> True, "kilogram" -> 
+            False}]]}, {
+         If[
+          Or[
+          AssessmentFunction[{
+             "second" -> False, "candela" -> False, "meter" -> True, 
+              "kilogram" -> False}] === None, CurrentValue[
+             EvaluationNotebook[], {
+             TaggingRules, "FormNotebook", "SubmissionOptions", 
+              "GroupSubmissionFlag"}] === True], "", 
+          QuestionFramework`Private`submitButton[
+          QuestionFramework`Private`result$$ = 
+            AssessmentFunction[{
+              "second" -> False, "candela" -> False, "meter" -> True, 
+               "kilogram" -> False}][
+             QuestionFramework`Private`input$$, "SubmissionCount" -> 
+              QuestionFramework`Private`submissionCount$$]; 
+           QuestionFramework`Private`submittedvalue$$ = 
+            QuestionFramework`Private`input$$; 
+           QuestionFramework`Private`submissionCount$$ = 
+            QuestionFramework`Private`getSubmissionCount[
+             QuestionFramework`Private`result$$]; 
+           QuestionFramework`Private`buttonenabled$$ = If[
+              QuestionFramework`Private`reachedMaxSubmissionsQ[
+              QuestionFramework`Private`result$$, 
+               QuestionFramework`Private`submissionCount$$], False, True, 
+              True]]], 
+         If[
+         Head[QuestionFramework`Private`result$$] === AssessmentResultObject, 
+          Row[{
+            If[Head[
+               QuestionFramework`Private`result$$["Explanation"]] === String, 
+             QuestionFramework`Private`result$$["Explanation"], ""]}, 
+           Spacer[5]], ""], SpanFromLeft}}, Alignment -> Left, 
+       Spacings -> {1, 1}], ImageSize -> If[
+        MatchQ[
+         CurrentValue[
+          EvaluationNotebook[], TaggingRules], 
+         KeyValuePattern["FormNotebook" -> Blank[List]]], {Full, Automatic}, 
+        Automatic], Background -> GrayLevel[1], FrameStyle -> 
+      RGBColor[0.7490196078431373, 0.7490196078431373, 0.7490196078431373], 
+      RoundingRadius -> 5, FrameMargins -> 10, BaseStyle -> "Panel"], 
+     StandardForm],
+    ImageSizeCache->{138., {59.433593688416295`, 63.566406311583705`}},
+    TrackedSymbols:>{
+     QuestionFramework`Private`result$$, QuestionFramework`Private`input$$, 
+      QuestionFramework`Private`submittedvalue$$}],
+   DynamicModuleValues:>{}],
+  QuestionObject[
+   QuestionInterface[Automatic, "What is the SI unit of length?"], 
+   AssessmentFunction[{
+    "second" -> False, "candela" -> False, "meter" -> True, "kilogram" -> 
+     False}]]]], "Output",
+ CellChangeTimes->{3.8834219162265053`*^9},
+ CellLabel->"Out[6]=",
+ CellID->278176432,ExpressionUUID->"3dee259c-c2c6-49df-945f-06a90522968d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"$millimeter$multiple$of$3", "=", 
+  RowBox[{"QuestionObject", "[", 
+   RowBox[{
+   "\"\<Is the base-10 logarithm for the scaling factor associated with the \
+prefix milli- a multiple of 3?\>\"", ",", 
+    RowBox[{"AssessmentFunction", "[", 
+     RowBox[{"{", "True", "}"}], "]"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.8834220094277253`*^9, 3.8834220181520667`*^9}},
+ CellLabel->"In[12]:=",
+ CellID->103507281,ExpressionUUID->"2956518d-3c28-4625-a3ad-b23fcf584dd0"],
+
+Cell[BoxData[
+ InterpretationBox[
+  DynamicModuleBox[{QuestionFramework`Private`input$$ = "", 
+   QuestionFramework`Private`result$$ = "", 
+   QuestionFramework`Private`buttonenabled$$ = True, 
+   QuestionFramework`Private`submissionCount$$ = 0, 
+   QuestionFramework`Private`submittedvalue$$ = ""}, 
+   DynamicBox[ToBoxes[
+     Framed[
+      Grid[{{
+        "Is the base-10 logarithm for the scaling factor associated with the \
+prefix milli- a multiple of 3?", SpanFromLeft}, {
+         RadioButtonBar[
+          Dynamic[QuestionFramework`Private`input$$], {
+          True -> "True", False -> "False"}, Appearance -> "Vertical"], 
+         QuestionFramework`Private`generalquestionTest[
+         QuestionFramework`Private`result$$, 
+          QuestionFramework`Private`input$$, 
+          QuestionFramework`Private`submittedvalue$$, 
+          AssessmentFunction[{True -> 1}]]}, {
+         If[
+          Or[AssessmentFunction[{True -> 1}] === None, CurrentValue[
+             EvaluationNotebook[], {
+             TaggingRules, "FormNotebook", "SubmissionOptions", 
+              "GroupSubmissionFlag"}] === True], "", 
+          QuestionFramework`Private`submitButton[
+          QuestionFramework`Private`result$$ = 
+            AssessmentFunction[{True -> 1}][
+             QuestionFramework`Private`input$$, "SubmissionCount" -> 
+              QuestionFramework`Private`submissionCount$$]; 
+           QuestionFramework`Private`submittedvalue$$ = 
+            QuestionFramework`Private`input$$; 
+           QuestionFramework`Private`submissionCount$$ = 
+            QuestionFramework`Private`getSubmissionCount[
+             QuestionFramework`Private`result$$]; 
+           QuestionFramework`Private`buttonenabled$$ = If[
+              QuestionFramework`Private`reachedMaxSubmissionsQ[
+              QuestionFramework`Private`result$$, 
+               QuestionFramework`Private`submissionCount$$], False, True, 
+              True]]], 
+         If[
+         Head[QuestionFramework`Private`result$$] === AssessmentResultObject, 
+          Row[{
+            If[Head[
+               QuestionFramework`Private`result$$["Explanation"]] === String, 
+             QuestionFramework`Private`result$$["Explanation"], ""]}, 
+           Spacer[5]], ""], SpanFromLeft}}, Alignment -> Left, 
+       Spacings -> {1, 1}], FrameStyle -> 
+      RGBColor[0.7490196078431373, 0.7490196078431373, 0.7490196078431373], 
+      RoundingRadius -> 5, FrameMargins -> 10, Background -> GrayLevel[1], 
+      If[
+       MatchQ[
+        CurrentValue[
+         EvaluationNotebook[], TaggingRules], 
+        KeyValuePattern["FormNotebook" -> Blank[List]]], 
+       ImageSize -> {Full, Automatic}, ImageSize -> Automatic], BaseStyle -> 
+      "Panel"], StandardForm],
+    ImageSizeCache->{395., {45.933593688416295`, 50.066406311583705`}},
+    TrackedSymbols:>{
+     QuestionFramework`Private`result$$, QuestionFramework`Private`input$$, 
+      QuestionFramework`Private`submittedvalue$$}],
+   DynamicModuleValues:>{}],
+  QuestionObject[
+   QuestionInterface[
+   Automatic, 
+    "Is the base-10 logarithm for the scaling factor associated with the \
+prefix milli- a multiple of 3?"], 
+   AssessmentFunction[{True -> 1}]]]], "Output",
+ CellChangeTimes->{{3.8834220117405186`*^9, 3.8834220185738797`*^9}},
+ CellLabel->"Out[12]=",
+ CellID->51884302,ExpressionUUID->"a9656e29-8554-41a8-80cc-b4999b657b7a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["$millimeter$multiple$of$3"], "Input",
+ CellChangeTimes->{{3.88342202124772*^9, 3.8834220219975586`*^9}},
+ CellLabel->"In[13]:=",
+ CellID->87451780,ExpressionUUID->"5168a42b-5675-4da8-9a52-0adc46c23678"],
+
+Cell[BoxData[
+ InterpretationBox[
+  DynamicModuleBox[{QuestionFramework`Private`input$$ = True, 
+   QuestionFramework`Private`result$$ = 
+   AssessmentResultObject[<|
+    "Score" -> 1, "MaxScore" -> 1, "MinScore" -> 0, "AnswerCorrect" -> True, 
+     "GivenAnswer" -> True, "Explanation" -> None, "Timestamp" -> 
+     DateObject[{2023, 1, 22, 19, 20, 31.2969756`9.248077275900794}, 
+       "Instant", "Gregorian", -5.], "AssessmentOptions" -> {}, 
+     "AnswerComparisonMethod" -> "Item", "SubmissionCount" -> 1|>], 
+   QuestionFramework`Private`buttonenabled$$ = True, 
+   QuestionFramework`Private`submissionCount$$ = 1, 
+   QuestionFramework`Private`submittedvalue$$ = True}, 
+   DynamicBox[ToBoxes[
+     Framed[
+      Grid[{{
+        "Is the base-10 logarithm for the scaling factor associated with the \
+prefix milli- a multiple of 3?", SpanFromLeft}, {
+         RadioButtonBar[
+          Dynamic[QuestionFramework`Private`input$$], {
+          True -> "True", False -> "False"}, Appearance -> "Vertical"], 
+         QuestionFramework`Private`generalquestionTest[
+         QuestionFramework`Private`result$$, 
+          QuestionFramework`Private`input$$, 
+          QuestionFramework`Private`submittedvalue$$, 
+          AssessmentFunction[{True -> 1}]]}, {
+         If[
+          Or[AssessmentFunction[{True -> 1}] === None, CurrentValue[
+             EvaluationNotebook[], {
+             TaggingRules, "FormNotebook", "SubmissionOptions", 
+              "GroupSubmissionFlag"}] === True], "", 
+          QuestionFramework`Private`submitButton[
+          QuestionFramework`Private`result$$ = 
+            AssessmentFunction[{True -> 1}][
+             QuestionFramework`Private`input$$, "SubmissionCount" -> 
+              QuestionFramework`Private`submissionCount$$]; 
+           QuestionFramework`Private`submittedvalue$$ = 
+            QuestionFramework`Private`input$$; 
+           QuestionFramework`Private`submissionCount$$ = 
+            QuestionFramework`Private`getSubmissionCount[
+             QuestionFramework`Private`result$$]; 
+           QuestionFramework`Private`buttonenabled$$ = If[
+              QuestionFramework`Private`reachedMaxSubmissionsQ[
+              QuestionFramework`Private`result$$, 
+               QuestionFramework`Private`submissionCount$$], False, True, 
+              True]]], 
+         If[
+         Head[QuestionFramework`Private`result$$] === AssessmentResultObject, 
+          Row[{
+            If[Head[
+               QuestionFramework`Private`result$$["Explanation"]] === String, 
+             QuestionFramework`Private`result$$["Explanation"], ""]}, 
+           Spacer[5]], ""], SpanFromLeft}}, Alignment -> Left, 
+       Spacings -> {1, 1}], FrameStyle -> 
+      RGBColor[0.7490196078431373, 0.7490196078431373, 0.7490196078431373], 
+      RoundingRadius -> 5, FrameMargins -> 10, Background -> GrayLevel[1], 
+      If[
+       MatchQ[
+        CurrentValue[
+         EvaluationNotebook[], TaggingRules], 
+        KeyValuePattern["FormNotebook" -> Blank[List]]], 
+       ImageSize -> {Full, Automatic}, ImageSize -> Automatic], BaseStyle -> 
+      "Panel"], StandardForm],
+    ImageSizeCache->{395., {45.933593688416295`, 50.066406311583705`}},
+    TrackedSymbols:>{
+     QuestionFramework`Private`result$$, QuestionFramework`Private`input$$, 
+      QuestionFramework`Private`submittedvalue$$}],
+   DynamicModuleValues:>{}],
+  QuestionObject[
+   QuestionInterface[
+   Automatic, 
+    "Is the base-10 logarithm for the scaling factor associated with the \
+prefix milli- a multiple of 3?"], 
+   AssessmentFunction[{True -> 1}]]]], "Output",
+ CellChangeTimes->{3.8834220222163057`*^9},
+ CellLabel->"Out[13]=",
+ CellID->54158003,ExpressionUUID->"9897a3c9-0097-43c4-b6e1-f66892dc6f1a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["$millimeter$multiple$of$3"], "Input",
+ CellChangeTimes->{{3.88342202124772*^9, 3.883422027723254*^9}},
+ CellLabel->"In[14]:=",
+ CellID->503186597,ExpressionUUID->"7d41f141-73af-4454-a080-a4818cf058ee"],
+
+Cell[BoxData[
+ InterpretationBox[
+  DynamicModuleBox[{QuestionFramework`Private`input$$ = False, 
+   QuestionFramework`Private`result$$ = 
+   AssessmentResultObject[<|
+    "Score" -> 0, "MaxScore" -> 1, "MinScore" -> 0, "AnswerCorrect" -> False, 
+     "GivenAnswer" -> False, "Explanation" -> None, "Timestamp" -> 
+     DateObject[{2023, 1, 22, 19, 20, 32.4761631`9.264139615707718}, 
+       "Instant", "Gregorian", -5.], "AssessmentOptions" -> {}, 
+     "AnswerComparisonMethod" -> "Item", "SubmissionCount" -> 1|>], 
+   QuestionFramework`Private`buttonenabled$$ = True, 
+   QuestionFramework`Private`submissionCount$$ = 1, 
+   QuestionFramework`Private`submittedvalue$$ = False}, 
+   DynamicBox[ToBoxes[
+     Framed[
+      Grid[{{
+        "Is the base-10 logarithm for the scaling factor associated with the \
+prefix milli- a multiple of 3?", SpanFromLeft}, {
+         RadioButtonBar[
+          Dynamic[QuestionFramework`Private`input$$], {
+          True -> "True", False -> "False"}, Appearance -> "Vertical"], 
+         QuestionFramework`Private`generalquestionTest[
+         QuestionFramework`Private`result$$, 
+          QuestionFramework`Private`input$$, 
+          QuestionFramework`Private`submittedvalue$$, 
+          AssessmentFunction[{True -> 1}]]}, {
+         If[
+          Or[AssessmentFunction[{True -> 1}] === None, CurrentValue[
+             EvaluationNotebook[], {
+             TaggingRules, "FormNotebook", "SubmissionOptions", 
+              "GroupSubmissionFlag"}] === True], "", 
+          QuestionFramework`Private`submitButton[
+          QuestionFramework`Private`result$$ = 
+            AssessmentFunction[{True -> 1}][
+             QuestionFramework`Private`input$$, "SubmissionCount" -> 
+              QuestionFramework`Private`submissionCount$$]; 
+           QuestionFramework`Private`submittedvalue$$ = 
+            QuestionFramework`Private`input$$; 
+           QuestionFramework`Private`submissionCount$$ = 
+            QuestionFramework`Private`getSubmissionCount[
+             QuestionFramework`Private`result$$]; 
+           QuestionFramework`Private`buttonenabled$$ = If[
+              QuestionFramework`Private`reachedMaxSubmissionsQ[
+              QuestionFramework`Private`result$$, 
+               QuestionFramework`Private`submissionCount$$], False, True, 
+              True]]], 
+         If[
+         Head[QuestionFramework`Private`result$$] === AssessmentResultObject, 
+          Row[{
+            If[Head[
+               QuestionFramework`Private`result$$["Explanation"]] === String, 
+             QuestionFramework`Private`result$$["Explanation"], ""]}, 
+           Spacer[5]], ""], SpanFromLeft}}, Alignment -> Left, 
+       Spacings -> {1, 1}], FrameStyle -> 
+      RGBColor[0.7490196078431373, 0.7490196078431373, 0.7490196078431373], 
+      RoundingRadius -> 5, FrameMargins -> 10, Background -> GrayLevel[1], 
+      If[
+       MatchQ[
+        CurrentValue[
+         EvaluationNotebook[], TaggingRules], 
+        KeyValuePattern["FormNotebook" -> Blank[List]]], 
+       ImageSize -> {Full, Automatic}, ImageSize -> Automatic], BaseStyle -> 
+      "Panel"], StandardForm],
+    ImageSizeCache->{395., {45.933593688416295`, 50.066406311583705`}},
+    TrackedSymbols:>{
+     QuestionFramework`Private`result$$, QuestionFramework`Private`input$$, 
+      QuestionFramework`Private`submittedvalue$$}],
+   DynamicModuleValues:>{}],
+  QuestionObject[
+   QuestionInterface[
+   Automatic, 
+    "Is the base-10 logarithm for the scaling factor associated with the \
+prefix milli- a multiple of 3?"], 
+   AssessmentFunction[{True -> 1}]]]], "Output",
+ CellChangeTimes->{3.8834220279884367`*^9},
+ CellLabel->"Out[14]=",
+ CellID->337889415,ExpressionUUID->"6021e255-b3ff-47e3-a178-aa6aa9e431bc"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"$centimeter$multiple$of$3", "=", 
+  RowBox[{"QuestionObject", "[", 
+   RowBox[{
+   "\"\<Is the base-10 logarithm for the scaling factor associated with the \
+prefix centi a multiple of 3?\>\"", ",", 
+    RowBox[{"AssessmentFunction", "[", 
+     RowBox[{"{", "False", "}"}], "]"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.8834219371408286`*^9, 3.883421982042984*^9}},
+ CellLabel->"In[8]:=",
+ CellID->255241873,ExpressionUUID->"429240ae-9aeb-4dd7-85a3-1aae2f64885a"],
+
+Cell[BoxData[
+ InterpretationBox[
+  DynamicModuleBox[{QuestionFramework`Private`input$$ = "", 
+   QuestionFramework`Private`result$$ = "", 
+   QuestionFramework`Private`buttonenabled$$ = True, 
+   QuestionFramework`Private`submissionCount$$ = 0, 
+   QuestionFramework`Private`submittedvalue$$ = ""}, 
+   DynamicBox[ToBoxes[
+     Framed[
+      Grid[{{
+        "Is the base-10 logarithm for the scaling factor associated with the \
+prefix centi a multiple of 3?", SpanFromLeft}, {
+         RadioButtonBar[
+          Dynamic[QuestionFramework`Private`input$$], {
+          True -> "True", False -> "False"}, Appearance -> "Vertical"], 
+         QuestionFramework`Private`generalquestionTest[
+         QuestionFramework`Private`result$$, 
+          QuestionFramework`Private`input$$, 
+          QuestionFramework`Private`submittedvalue$$, 
+          AssessmentFunction[{False -> 1}]]}, {
+         If[
+          Or[AssessmentFunction[{False -> 1}] === None, CurrentValue[
+             EvaluationNotebook[], {
+             TaggingRules, "FormNotebook", "SubmissionOptions", 
+              "GroupSubmissionFlag"}] === True], "", 
+          QuestionFramework`Private`submitButton[
+          QuestionFramework`Private`result$$ = 
+            AssessmentFunction[{False -> 1}][
+             QuestionFramework`Private`input$$, "SubmissionCount" -> 
+              QuestionFramework`Private`submissionCount$$]; 
+           QuestionFramework`Private`submittedvalue$$ = 
+            QuestionFramework`Private`input$$; 
+           QuestionFramework`Private`submissionCount$$ = 
+            QuestionFramework`Private`getSubmissionCount[
+             QuestionFramework`Private`result$$]; 
+           QuestionFramework`Private`buttonenabled$$ = If[
+              QuestionFramework`Private`reachedMaxSubmissionsQ[
+              QuestionFramework`Private`result$$, 
+               QuestionFramework`Private`submissionCount$$], False, True, 
+              True]]], 
+         If[
+         Head[QuestionFramework`Private`result$$] === AssessmentResultObject, 
+          Row[{
+            If[Head[
+               QuestionFramework`Private`result$$["Explanation"]] === String, 
+             QuestionFramework`Private`result$$["Explanation"], ""]}, 
+           Spacer[5]], ""], SpanFromLeft}}, Alignment -> Left, 
+       Spacings -> {1, 1}], FrameStyle -> 
+      RGBColor[0.7490196078431373, 0.7490196078431373, 0.7490196078431373], 
+      RoundingRadius -> 5, FrameMargins -> 10, Background -> GrayLevel[1], 
+      If[
+       MatchQ[
+        CurrentValue[
+         EvaluationNotebook[], TaggingRules], 
+        KeyValuePattern["FormNotebook" -> Blank[List]]], 
+       ImageSize -> {Full, Automatic}, ImageSize -> Automatic], BaseStyle -> 
+      "Panel"], StandardForm],
+    ImageSizeCache->{393., {45.933593688416295`, 50.066406311583705`}},
+    TrackedSymbols:>{
+     QuestionFramework`Private`result$$, QuestionFramework`Private`input$$, 
+      QuestionFramework`Private`submittedvalue$$}],
+   DynamicModuleValues:>{}],
+  QuestionObject[
+   QuestionInterface[
+   Automatic, 
+    "Is the base-10 logarithm for the scaling factor associated with the \
+prefix centi a multiple of 3?"], 
+   AssessmentFunction[{False -> 1}]]]], "Output",
+ CellChangeTimes->{{3.8834219731848893`*^9, 3.8834219823397727`*^9}},
+ CellLabel->"Out[8]=",
+ CellID->357771779,ExpressionUUID->"560dd9f0-6512-4653-875f-e62552026932"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["$centimeter$multiple$of$3"], "Input",
+ CellChangeTimes->{{3.88342198302715*^9, 3.883421983855104*^9}},
+ CellLabel->"In[9]:=",
+ CellID->133785065,ExpressionUUID->"e2de7b54-beb1-4eac-aae8-f102221abe05"],
+
+Cell[BoxData[
+ InterpretationBox[
+  DynamicModuleBox[{QuestionFramework`Private`input$$ = True, 
+   QuestionFramework`Private`result$$ = 
+   AssessmentResultObject[<|
+    "Score" -> 0, "MaxScore" -> 1, "MinScore" -> 0, "AnswerCorrect" -> False, 
+     "GivenAnswer" -> True, "Explanation" -> None, "Timestamp" -> 
+     DateObject[{2023, 1, 22, 19, 19, 47.3454749`9.42785333807787}, "Instant",
+        "Gregorian", -5.], "AssessmentOptions" -> {}, 
+     "AnswerComparisonMethod" -> "Item", "SubmissionCount" -> 1|>], 
+   QuestionFramework`Private`buttonenabled$$ = True, 
+   QuestionFramework`Private`submissionCount$$ = 1, 
+   QuestionFramework`Private`submittedvalue$$ = True}, 
+   DynamicBox[ToBoxes[
+     Framed[
+      Grid[{{
+        "Is the base-10 logarithm for the scaling factor associated with the \
+prefix centi a multiple of 3?", SpanFromLeft}, {
+         RadioButtonBar[
+          Dynamic[QuestionFramework`Private`input$$], {
+          True -> "True", False -> "False"}, Appearance -> "Vertical"], 
+         QuestionFramework`Private`generalquestionTest[
+         QuestionFramework`Private`result$$, 
+          QuestionFramework`Private`input$$, 
+          QuestionFramework`Private`submittedvalue$$, 
+          AssessmentFunction[{False -> 1}]]}, {
+         If[
+          Or[AssessmentFunction[{False -> 1}] === None, CurrentValue[
+             EvaluationNotebook[], {
+             TaggingRules, "FormNotebook", "SubmissionOptions", 
+              "GroupSubmissionFlag"}] === True], "", 
+          QuestionFramework`Private`submitButton[
+          QuestionFramework`Private`result$$ = 
+            AssessmentFunction[{False -> 1}][
+             QuestionFramework`Private`input$$, "SubmissionCount" -> 
+              QuestionFramework`Private`submissionCount$$]; 
+           QuestionFramework`Private`submittedvalue$$ = 
+            QuestionFramework`Private`input$$; 
+           QuestionFramework`Private`submissionCount$$ = 
+            QuestionFramework`Private`getSubmissionCount[
+             QuestionFramework`Private`result$$]; 
+           QuestionFramework`Private`buttonenabled$$ = If[
+              QuestionFramework`Private`reachedMaxSubmissionsQ[
+              QuestionFramework`Private`result$$, 
+               QuestionFramework`Private`submissionCount$$], False, True, 
+              True]]], 
+         If[
+         Head[QuestionFramework`Private`result$$] === AssessmentResultObject, 
+          Row[{
+            If[Head[
+               QuestionFramework`Private`result$$["Explanation"]] === String, 
+             QuestionFramework`Private`result$$["Explanation"], ""]}, 
+           Spacer[5]], ""], SpanFromLeft}}, Alignment -> Left, 
+       Spacings -> {1, 1}], FrameStyle -> 
+      RGBColor[0.7490196078431373, 0.7490196078431373, 0.7490196078431373], 
+      RoundingRadius -> 5, FrameMargins -> 10, Background -> GrayLevel[1], 
+      If[
+       MatchQ[
+        CurrentValue[
+         EvaluationNotebook[], TaggingRules], 
+        KeyValuePattern["FormNotebook" -> Blank[List]]], 
+       ImageSize -> {Full, Automatic}, ImageSize -> Automatic], BaseStyle -> 
+      "Panel"], StandardForm],
+    ImageSizeCache->{393., {45.933593688416295`, 50.066406311583705`}},
+    TrackedSymbols:>{
+     QuestionFramework`Private`result$$, QuestionFramework`Private`input$$, 
+      QuestionFramework`Private`submittedvalue$$}],
+   DynamicModuleValues:>{}],
+  QuestionObject[
+   QuestionInterface[
+   Automatic, 
+    "Is the base-10 logarithm for the scaling factor associated with the \
+prefix centi a multiple of 3?"], 
+   AssessmentFunction[{False -> 1}]]]], "Output",
+ CellChangeTimes->{3.8834219844799647`*^9},
+ CellLabel->"Out[9]=",
+ CellID->371105,ExpressionUUID->"b2b71dae-1642-41ca-aad4-f64f00b846a0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["$centimeter$multiple$of$3"], "Input",
+ CellChangeTimes->{{3.88342198302715*^9, 3.8834219958138666`*^9}},
+ CellLabel->"In[10]:=",
+ CellID->63569359,ExpressionUUID->"35d1b55f-9e2a-4406-849a-66ff02a62465"],
+
+Cell[BoxData[
+ InterpretationBox[
+  DynamicModuleBox[{QuestionFramework`Private`input$$ = False, 
+   QuestionFramework`Private`result$$ = 
+   AssessmentResultObject[<|
+    "Score" -> 1, "MaxScore" -> 1, "MinScore" -> 0, "AnswerCorrect" -> True, 
+     "GivenAnswer" -> False, "Explanation" -> None, "Timestamp" -> 
+     DateObject[{2023, 1, 22, 19, 19, 59.0088359`9.523491875391356}, 
+       "Instant", "Gregorian", -5.], "AssessmentOptions" -> {}, 
+     "AnswerComparisonMethod" -> "Item", "SubmissionCount" -> 1|>], 
+   QuestionFramework`Private`buttonenabled$$ = True, 
+   QuestionFramework`Private`submissionCount$$ = 1, 
+   QuestionFramework`Private`submittedvalue$$ = False}, 
+   DynamicBox[ToBoxes[
+     Framed[
+      Grid[{{
+        "Is the base-10 logarithm for the scaling factor associated with the \
+prefix centi a multiple of 3?", SpanFromLeft}, {
+         RadioButtonBar[
+          Dynamic[QuestionFramework`Private`input$$], {
+          True -> "True", False -> "False"}, Appearance -> "Vertical"], 
+         QuestionFramework`Private`generalquestionTest[
+         QuestionFramework`Private`result$$, 
+          QuestionFramework`Private`input$$, 
+          QuestionFramework`Private`submittedvalue$$, 
+          AssessmentFunction[{False -> 1}]]}, {
+         If[
+          Or[AssessmentFunction[{False -> 1}] === None, CurrentValue[
+             EvaluationNotebook[], {
+             TaggingRules, "FormNotebook", "SubmissionOptions", 
+              "GroupSubmissionFlag"}] === True], "", 
+          QuestionFramework`Private`submitButton[
+          QuestionFramework`Private`result$$ = 
+            AssessmentFunction[{False -> 1}][
+             QuestionFramework`Private`input$$, "SubmissionCount" -> 
+              QuestionFramework`Private`submissionCount$$]; 
+           QuestionFramework`Private`submittedvalue$$ = 
+            QuestionFramework`Private`input$$; 
+           QuestionFramework`Private`submissionCount$$ = 
+            QuestionFramework`Private`getSubmissionCount[
+             QuestionFramework`Private`result$$]; 
+           QuestionFramework`Private`buttonenabled$$ = If[
+              QuestionFramework`Private`reachedMaxSubmissionsQ[
+              QuestionFramework`Private`result$$, 
+               QuestionFramework`Private`submissionCount$$], False, True, 
+              True]]], 
+         If[
+         Head[QuestionFramework`Private`result$$] === AssessmentResultObject, 
+          Row[{
+            If[Head[
+               QuestionFramework`Private`result$$["Explanation"]] === String, 
+             QuestionFramework`Private`result$$["Explanation"], ""]}, 
+           Spacer[5]], ""], SpanFromLeft}}, Alignment -> Left, 
+       Spacings -> {1, 1}], FrameStyle -> 
+      RGBColor[0.7490196078431373, 0.7490196078431373, 0.7490196078431373], 
+      RoundingRadius -> 5, FrameMargins -> 10, Background -> GrayLevel[1], 
+      If[
+       MatchQ[
+        CurrentValue[
+         EvaluationNotebook[], TaggingRules], 
+        KeyValuePattern["FormNotebook" -> Blank[List]]], 
+       ImageSize -> {Full, Automatic}, ImageSize -> Automatic], BaseStyle -> 
+      "Panel"], StandardForm],
+    ImageSizeCache->{393., {45.933593688416295`, 50.066406311583705`}},
+    TrackedSymbols:>{
+     QuestionFramework`Private`result$$, QuestionFramework`Private`input$$, 
+      QuestionFramework`Private`submittedvalue$$}],
+   DynamicModuleValues:>{}],
+  QuestionObject[
+   QuestionInterface[
+   Automatic, 
+    "Is the base-10 logarithm for the scaling factor associated with the \
+prefix centi a multiple of 3?"], 
+   AssessmentFunction[{False -> 1}]]]], "Output",
+ CellChangeTimes->{3.883421996141554*^9},
+ CellLabel->"Out[10]=",
+ CellID->666308739,ExpressionUUID->"1772314d-9b6a-48d5-bccd-dacbd510b51e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"AssessmentFunction", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"\"\<Dog\>\"", "\[Rule]", "True"}], ",", 
+    RowBox[{"\"\<Cat\>\"", "\[Rule]", "False"}]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.8834220609644756`*^9, 3.883422061470704*^9}},
+ CellLabel->"In[15]:=",
+ CellID->728969434,ExpressionUUID->"f0b6384b-d978-4d6e-abc5-f1de913474fb"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["AssessmentFunction",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+    TemplateBox[{
+      PaneSelectorBox[{False -> GridBox[{{
+            GraphicsBox[
+             TagBox[
+              RasterBox[CompressedData["
+1:eJztmsuKGkEYhSXJIsu8Ql4hq2yzzHZCHmAGO2MQWnACEnCtuPcNxJ0IKq4E
+NwqKN1AXKoqgInjDO14QqXiKOGine9SybTtjf3DES1V3na76+68q++OD6e7H
+G51O9/R+83J3b/liNt///vZh8+E7//Tzkef0X/lf3CNn/vzwdvPlp796txHR
+UCWJRIJ4PB5R+Xw+0u/3Ret1u10SiUQUVTqdlvSB9rrdbkk1m01arlAo7NVr
+t9skHA4rqng8ftBHo9Egw+FwT9PplJbxer1Er9cTv9//XG+1WtHfldRsNjvo
+A+0WA9cBHqBoNCp5nGuz6wOxsO0DgPHIcRz1EAgE9uqhbCaTuYjq9Tqzj0ql
+QiwWC7HZbGSxWJByuUwMBgP14HK5/ql3yfgolUrMPorFIjGZTLTdDoeD8DxP
+3zudTrJer8lkMiGxWIwMBgNabz6fUy+X0Hg8ZvaBcVWtVonRaHyOB7vdTpbL
+JS2Xz+dpuWQyefI5lEAY57i/YjxZrda9WMlms7Qc8g3ANUP/nyOW636sD5DL
+5Uiv19srJ/QhR3zgGHL7QPvQVimFQqE9H+grjMNztNvf54Ic91I+FyqVSsl2
+bjlBHsc1PkbwgPuWhsatgDlIq9U6Sp1Oh+Z2gPyIOdY1JDanDQaDJ92vkNfB
+NdYfW2FNJWSbP7D2w5xWSrt5BiBPYl1zDYmtCw+tP7YI87naYPWBOEGMsGgb
+Y2rwcU58SO1daD60+FAbmg91wZoH1QbrvERtsM4TNTRuAdZ9Bjn24ViFvWgh
+rPs+al1HXWMfjlW1Wk3Sx2vJ56f6wH9ciC05NRqNFPdxifjAmFHaB8pjjiKn
+ztl/v/X4UBuvzYfYcwC7Qvv/Bx/HSq0+XnpORijMYdBvGhpS/AFMvcLL
+               "], {{0, 24.}, {24., 0}}, {0, 255}, ColorFunction -> RGBColor, 
+               ImageResolution -> {150, 150}], 
+              BoxForm`ImageTag[
+              "Byte", ColorSpace -> ColorProfileData[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIj
+UFABpJaBSSGxoCCHCagqN6+kKMjdSSEiMkqB/QkDFwMbAw+Q1ExMLi5wDAjw
+AamG0ajg2zUGkIEMl3VBZmHK4wVcKanFyUD6DxBnJxcUlTAwMGYA2crlJQUg
+dg+QLZKUDWYvALGLgA4EsreA2OkQ9gmwGgj7DlhNSJAzkP0ByOZLArPBnuVL
+h7BBYcIHtRcEBB1T8pNSFUC+1zC0tLTQJNEPBEFJakUJiHbOL6gsykzPKFFw
+BIZUqoJnXrKejoKRgZEBAwMo3CGqPweCw5NR7AxCDAEQYnMkGBj8lzIwsPxB
+iJn0MjAs0GFg4J+KEFMzZGAQ0Gdg2DcnubSoDGoMI5MxAwMhPgDa31bA
+                 "], "RGB", "XYZ"], Interleaving -> True, Magnification -> 
+               Automatic], Selectable -> False], DefaultBaseStyle -> 
+             "ImageGraphics", ImageSizeRaw -> {24., 24.}, 
+             PlotRange -> {{0, 24.}, {0, 24.}}, ImageSize -> 20], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"String\"", "SummaryItem"]}], "\[SpanFromLeft]"}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}], True -> GridBox[{{
+            GraphicsBox[
+             TagBox[
+              RasterBox[CompressedData["
+1:eJztmsuKGkEYhSXJIsu8Ql4hq2yzzHZCHmAGO2MQWnACEnCtuPcNxJ0IKq4E
+NwqKN1AXKoqgInjDO14QqXiKOGine9SybTtjf3DES1V3na76+68q++OD6e7H
+G51O9/R+83J3b/liNt///vZh8+E7//Tzkef0X/lf3CNn/vzwdvPlp796txHR
+UCWJRIJ4PB5R+Xw+0u/3Ret1u10SiUQUVTqdlvSB9rrdbkk1m01arlAo7NVr
+t9skHA4rqng8ftBHo9Egw+FwT9PplJbxer1Er9cTv9//XG+1WtHfldRsNjvo
+A+0WA9cBHqBoNCp5nGuz6wOxsO0DgPHIcRz1EAgE9uqhbCaTuYjq9Tqzj0ql
+QiwWC7HZbGSxWJByuUwMBgP14HK5/ql3yfgolUrMPorFIjGZTLTdDoeD8DxP
+3zudTrJer8lkMiGxWIwMBgNabz6fUy+X0Hg8ZvaBcVWtVonRaHyOB7vdTpbL
+JS2Xz+dpuWQyefI5lEAY57i/YjxZrda9WMlms7Qc8g3ANUP/nyOW636sD5DL
+5Uiv19srJ/QhR3zgGHL7QPvQVimFQqE9H+grjMNztNvf54Ic91I+FyqVSsl2
+bjlBHsc1PkbwgPuWhsatgDlIq9U6Sp1Oh+Z2gPyIOdY1JDanDQaDJ92vkNfB
+NdYfW2FNJWSbP7D2w5xWSrt5BiBPYl1zDYmtCw+tP7YI87naYPWBOEGMsGgb
+Y2rwcU58SO1daD60+FAbmg91wZoH1QbrvERtsM4TNTRuAdZ9Bjn24ViFvWgh
+rPs+al1HXWMfjlW1Wk3Sx2vJ56f6wH9ciC05NRqNFPdxifjAmFHaB8pjjiKn
+ztl/v/X4UBuvzYfYcwC7Qvv/Bx/HSq0+XnpORijMYdBvGhpS/AFMvcLL
+               "], {{0, 24.}, {24., 0}}, {0, 255}, ColorFunction -> RGBColor, 
+               ImageResolution -> {150, 150}], 
+              BoxForm`ImageTag[
+              "Byte", ColorSpace -> ColorProfileData[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIj
+UFABpJaBSSGxoCCHCagqN6+kKMjdSSEiMkqB/QkDFwMbAw+Q1ExMLi5wDAjw
+AamG0ajg2zUGkIEMl3VBZmHK4wVcKanFyUD6DxBnJxcUlTAwMGYA2crlJQUg
+dg+QLZKUDWYvALGLgA4EsreA2OkQ9gmwGgj7DlhNSJAzkP0ByOZLArPBnuVL
+h7BBYcIHtRcEBB1T8pNSFUC+1zC0tLTQJNEPBEFJakUJiHbOL6gsykzPKFFw
+BIZUqoJnXrKejoKRgZEBAwMo3CGqPweCw5NR7AxCDAEQYnMkGBj8lzIwsPxB
+iJn0MjAs0GFg4J+KEFMzZGAQ0Gdg2DcnubSoDGoMI5MxAwMhPgDa31bA
+                 "], "RGB", "XYZ"], Interleaving -> True, Magnification -> 
+               Automatic], Selectable -> False], DefaultBaseStyle -> 
+             "ImageGraphics", ImageSizeRaw -> {24., 24.}, 
+             PlotRange -> {{0, 24.}, {0, 24.}}, ImageSize -> 20], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"String\"", "SummaryItem"]}], "\[SpanFromLeft]"}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}]}, 
+       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+     "SummaryPanel"],
+    DynamicModuleValues:>{}], "]"}],
+  AssessmentFunction[{"Dog" -> True, "Cat" -> False}],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{3.8834220618768682`*^9},
+ CellLabel->"Out[15]=",
+ CellID->276398161,ExpressionUUID->"0efd85bd-addf-4370-b0b2-fdead347dda2"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"asmf", "=", 
+  RowBox[{"AssessmentFunction", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"100", "\[Rule]", "10"}], "}"}], ",", "Greater"}], 
+   "]"}]}]], "Input",
+ CellLabel->"In[16]:=",
+ CellID->8036993,ExpressionUUID->"a57e1eb6-fae0-4255-9b80-2ede5f6281fc"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["AssessmentFunction",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+    TemplateBox[{
+      PaneSelectorBox[{False -> GridBox[{{
+            GraphicsBox[
+             TagBox[
+              RasterBox[CompressedData["
+1:eJztmsuKGkEYhSXJIsu8Ql4hq2yzzHZCHmAGO2MQWnACEnCtuPcNxJ0IKq4E
+NwqKN1AXKoqgInjDO14QqXiKOGine9SybTtjf3DES1V3na76+68q++OD6e7H
+G51O9/R+83J3b/liNt///vZh8+E7//Tzkef0X/lf3CNn/vzwdvPlp796txHR
+UCWJRIJ4PB5R+Xw+0u/3Ret1u10SiUQUVTqdlvSB9rrdbkk1m01arlAo7NVr
+t9skHA4rqng8ftBHo9Egw+FwT9PplJbxer1Er9cTv9//XG+1WtHfldRsNjvo
+A+0WA9cBHqBoNCp5nGuz6wOxsO0DgPHIcRz1EAgE9uqhbCaTuYjq9Tqzj0ql
+QiwWC7HZbGSxWJByuUwMBgP14HK5/ql3yfgolUrMPorFIjGZTLTdDoeD8DxP
+3zudTrJer8lkMiGxWIwMBgNabz6fUy+X0Hg8ZvaBcVWtVonRaHyOB7vdTpbL
+JS2Xz+dpuWQyefI5lEAY57i/YjxZrda9WMlms7Qc8g3ANUP/nyOW636sD5DL
+5Uiv19srJ/QhR3zgGHL7QPvQVimFQqE9H+grjMNztNvf54Ic91I+FyqVSsl2
+bjlBHsc1PkbwgPuWhsatgDlIq9U6Sp1Oh+Z2gPyIOdY1JDanDQaDJ92vkNfB
+NdYfW2FNJWSbP7D2w5xWSrt5BiBPYl1zDYmtCw+tP7YI87naYPWBOEGMsGgb
+Y2rwcU58SO1daD60+FAbmg91wZoH1QbrvERtsM4TNTRuAdZ9Bjn24ViFvWgh
+rPs+al1HXWMfjlW1Wk3Sx2vJ56f6wH9ciC05NRqNFPdxifjAmFHaB8pjjiKn
+ztl/v/X4UBuvzYfYcwC7Qvv/Bx/HSq0+XnpORijMYdBvGhpS/AFMvcLL
+               "], {{0, 24.}, {24., 0}}, {0, 255}, ColorFunction -> RGBColor, 
+               ImageResolution -> {150, 150}], 
+              BoxForm`ImageTag[
+              "Byte", ColorSpace -> ColorProfileData[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIj
+UFABpJaBSSGxoCCHCagqN6+kKMjdSSEiMkqB/QkDFwMbAw+Q1ExMLi5wDAjw
+AamG0ajg2zUGkIEMl3VBZmHK4wVcKanFyUD6DxBnJxcUlTAwMGYA2crlJQUg
+dg+QLZKUDWYvALGLgA4EsreA2OkQ9gmwGgj7DlhNSJAzkP0ByOZLArPBnuVL
+h7BBYcIHtRcEBB1T8pNSFUC+1zC0tLTQJNEPBEFJakUJiHbOL6gsykzPKFFw
+BIZUqoJnXrKejoKRgZEBAwMo3CGqPweCw5NR7AxCDAEQYnMkGBj8lzIwsPxB
+iJn0MjAs0GFg4J+KEFMzZGAQ0Gdg2DcnubSoDGoMI5MxAwMhPgDa31bA
+                 "], "RGB", "XYZ"], Interleaving -> True, Magnification -> 
+               Automatic], Selectable -> False], DefaultBaseStyle -> 
+             "ImageGraphics", ImageSizeRaw -> {24., 24.}, 
+             PlotRange -> {{0, 24.}, {0, 24.}}, ImageSize -> 20], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["None", "SummaryItem"]}], "\[SpanFromLeft]"}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}], True -> GridBox[{{
+            GraphicsBox[
+             TagBox[
+              RasterBox[CompressedData["
+1:eJztmsuKGkEYhSXJIsu8Ql4hq2yzzHZCHmAGO2MQWnACEnCtuPcNxJ0IKq4E
+NwqKN1AXKoqgInjDO14QqXiKOGine9SybTtjf3DES1V3na76+68q++OD6e7H
+G51O9/R+83J3b/liNt///vZh8+E7//Tzkef0X/lf3CNn/vzwdvPlp796txHR
+UCWJRIJ4PB5R+Xw+0u/3Ret1u10SiUQUVTqdlvSB9rrdbkk1m01arlAo7NVr
+t9skHA4rqng8ftBHo9Egw+FwT9PplJbxer1Er9cTv9//XG+1WtHfldRsNjvo
+A+0WA9cBHqBoNCp5nGuz6wOxsO0DgPHIcRz1EAgE9uqhbCaTuYjq9Tqzj0ql
+QiwWC7HZbGSxWJByuUwMBgP14HK5/ql3yfgolUrMPorFIjGZTLTdDoeD8DxP
+3zudTrJer8lkMiGxWIwMBgNabz6fUy+X0Hg8ZvaBcVWtVonRaHyOB7vdTpbL
+JS2Xz+dpuWQyefI5lEAY57i/YjxZrda9WMlms7Qc8g3ANUP/nyOW636sD5DL
+5Uiv19srJ/QhR3zgGHL7QPvQVimFQqE9H+grjMNztNvf54Ic91I+FyqVSsl2
+bjlBHsc1PkbwgPuWhsatgDlIq9U6Sp1Oh+Z2gPyIOdY1JDanDQaDJ92vkNfB
+NdYfW2FNJWSbP7D2w5xWSrt5BiBPYl1zDYmtCw+tP7YI87naYPWBOEGMsGgb
+Y2rwcU58SO1daD60+FAbmg91wZoH1QbrvERtsM4TNTRuAdZ9Bjn24ViFvWgh
+rPs+al1HXWMfjlW1Wk3Sx2vJ56f6wH9ciC05NRqNFPdxifjAmFHaB8pjjiKn
+ztl/v/X4UBuvzYfYcwC7Qvv/Bx/HSq0+XnpORijMYdBvGhpS/AFMvcLL
+               "], {{0, 24.}, {24., 0}}, {0, 255}, ColorFunction -> RGBColor, 
+               ImageResolution -> {150, 150}], 
+              BoxForm`ImageTag[
+              "Byte", ColorSpace -> ColorProfileData[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIj
+UFABpJaBSSGxoCCHCagqN6+kKMjdSSEiMkqB/QkDFwMbAw+Q1ExMLi5wDAjw
+AamG0ajg2zUGkIEMl3VBZmHK4wVcKanFyUD6DxBnJxcUlTAwMGYA2crlJQUg
+dg+QLZKUDWYvALGLgA4EsreA2OkQ9gmwGgj7DlhNSJAzkP0ByOZLArPBnuVL
+h7BBYcIHtRcEBB1T8pNSFUC+1zC0tLTQJNEPBEFJakUJiHbOL6gsykzPKFFw
+BIZUqoJnXrKejoKRgZEBAwMo3CGqPweCw5NR7AxCDAEQYnMkGBj8lzIwsPxB
+iJn0MjAs0GFg4J+KEFMzZGAQ0Gdg2DcnubSoDGoMI5MxAwMhPgDa31bA
+                 "], "RGB", "XYZ"], Interleaving -> True, Magnification -> 
+               Automatic], Selectable -> False], DefaultBaseStyle -> 
+             "ImageGraphics", ImageSizeRaw -> {24., 24.}, 
+             PlotRange -> {{0, 24.}, {0, 24.}}, ImageSize -> 20], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["None", "SummaryItem"]}], "\[SpanFromLeft]"}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}]}, 
+       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+     "SummaryPanel"],
+    DynamicModuleValues:>{}], "]"}],
+  AssessmentFunction[{100 -> 10}, <|"Comparator" -> Greater|>],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{3.883422130495843*^9},
+ CellLabel->"Out[16]=",
+ CellID->207656108,ExpressionUUID->"389fd283-1cfa-4774-93b2-7f91aea43afc"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"asmf", "=", 
+  RowBox[{"AssessmentFunction", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"299792458", "\[Rule]", "10"}], "}"}], ",", "Greater"}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.883422131136515*^9, 3.8834221409213305`*^9}},
+ CellLabel->"In[17]:=",
+ CellID->122739528,ExpressionUUID->"4d9797ed-0d28-4913-a874-cb1d9a21791b"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["AssessmentFunction",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+    TemplateBox[{
+      PaneSelectorBox[{False -> GridBox[{{
+            GraphicsBox[
+             TagBox[
+              RasterBox[CompressedData["
+1:eJztmsuKGkEYhSXJIsu8Ql4hq2yzzHZCHmAGO2MQWnACEnCtuPcNxJ0IKq4E
+NwqKN1AXKoqgInjDO14QqXiKOGine9SybTtjf3DES1V3na76+68q++OD6e7H
+G51O9/R+83J3b/liNt///vZh8+E7//Tzkef0X/lf3CNn/vzwdvPlp796txHR
+UCWJRIJ4PB5R+Xw+0u/3Ret1u10SiUQUVTqdlvSB9rrdbkk1m01arlAo7NVr
+t9skHA4rqng8ftBHo9Egw+FwT9PplJbxer1Er9cTv9//XG+1WtHfldRsNjvo
+A+0WA9cBHqBoNCp5nGuz6wOxsO0DgPHIcRz1EAgE9uqhbCaTuYjq9Tqzj0ql
+QiwWC7HZbGSxWJByuUwMBgP14HK5/ql3yfgolUrMPorFIjGZTLTdDoeD8DxP
+3zudTrJer8lkMiGxWIwMBgNabz6fUy+X0Hg8ZvaBcVWtVonRaHyOB7vdTpbL
+JS2Xz+dpuWQyefI5lEAY57i/YjxZrda9WMlms7Qc8g3ANUP/nyOW636sD5DL
+5Uiv19srJ/QhR3zgGHL7QPvQVimFQqE9H+grjMNztNvf54Ic91I+FyqVSsl2
+bjlBHsc1PkbwgPuWhsatgDlIq9U6Sp1Oh+Z2gPyIOdY1JDanDQaDJ92vkNfB
+NdYfW2FNJWSbP7D2w5xWSrt5BiBPYl1zDYmtCw+tP7YI87naYPWBOEGMsGgb
+Y2rwcU58SO1daD60+FAbmg91wZoH1QbrvERtsM4TNTRuAdZ9Bjn24ViFvWgh
+rPs+al1HXWMfjlW1Wk3Sx2vJ56f6wH9ciC05NRqNFPdxifjAmFHaB8pjjiKn
+ztl/v/X4UBuvzYfYcwC7Qvv/Bx/HSq0+XnpORijMYdBvGhpS/AFMvcLL
+               "], {{0, 24.}, {24., 0}}, {0, 255}, ColorFunction -> RGBColor, 
+               ImageResolution -> {150, 150}], 
+              BoxForm`ImageTag[
+              "Byte", ColorSpace -> ColorProfileData[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIj
+UFABpJaBSSGxoCCHCagqN6+kKMjdSSEiMkqB/QkDFwMbAw+Q1ExMLi5wDAjw
+AamG0ajg2zUGkIEMl3VBZmHK4wVcKanFyUD6DxBnJxcUlTAwMGYA2crlJQUg
+dg+QLZKUDWYvALGLgA4EsreA2OkQ9gmwGgj7DlhNSJAzkP0ByOZLArPBnuVL
+h7BBYcIHtRcEBB1T8pNSFUC+1zC0tLTQJNEPBEFJakUJiHbOL6gsykzPKFFw
+BIZUqoJnXrKejoKRgZEBAwMo3CGqPweCw5NR7AxCDAEQYnMkGBj8lzIwsPxB
+iJn0MjAs0GFg4J+KEFMzZGAQ0Gdg2DcnubSoDGoMI5MxAwMhPgDa31bA
+                 "], "RGB", "XYZ"], Interleaving -> True, Magnification -> 
+               Automatic], Selectable -> False], DefaultBaseStyle -> 
+             "ImageGraphics", ImageSizeRaw -> {24., 24.}, 
+             PlotRange -> {{0, 24.}, {0, 24.}}, ImageSize -> 20], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["None", "SummaryItem"]}], "\[SpanFromLeft]"}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}], True -> GridBox[{{
+            GraphicsBox[
+             TagBox[
+              RasterBox[CompressedData["
+1:eJztmsuKGkEYhSXJIsu8Ql4hq2yzzHZCHmAGO2MQWnACEnCtuPcNxJ0IKq4E
+NwqKN1AXKoqgInjDO14QqXiKOGine9SybTtjf3DES1V3na76+68q++OD6e7H
+G51O9/R+83J3b/liNt///vZh8+E7//Tzkef0X/lf3CNn/vzwdvPlp796txHR
+UCWJRIJ4PB5R+Xw+0u/3Ret1u10SiUQUVTqdlvSB9rrdbkk1m01arlAo7NVr
+t9skHA4rqng8ftBHo9Egw+FwT9PplJbxer1Er9cTv9//XG+1WtHfldRsNjvo
+A+0WA9cBHqBoNCp5nGuz6wOxsO0DgPHIcRz1EAgE9uqhbCaTuYjq9Tqzj0ql
+QiwWC7HZbGSxWJByuUwMBgP14HK5/ql3yfgolUrMPorFIjGZTLTdDoeD8DxP
+3zudTrJer8lkMiGxWIwMBgNabz6fUy+X0Hg8ZvaBcVWtVonRaHyOB7vdTpbL
+JS2Xz+dpuWQyefI5lEAY57i/YjxZrda9WMlms7Qc8g3ANUP/nyOW636sD5DL
+5Uiv19srJ/QhR3zgGHL7QPvQVimFQqE9H+grjMNztNvf54Ic91I+FyqVSsl2
+bjlBHsc1PkbwgPuWhsatgDlIq9U6Sp1Oh+Z2gPyIOdY1JDanDQaDJ92vkNfB
+NdYfW2FNJWSbP7D2w5xWSrt5BiBPYl1zDYmtCw+tP7YI87naYPWBOEGMsGgb
+Y2rwcU58SO1daD60+FAbmg91wZoH1QbrvERtsM4TNTRuAdZ9Bjn24ViFvWgh
+rPs+al1HXWMfjlW1Wk3Sx2vJ56f6wH9ciC05NRqNFPdxifjAmFHaB8pjjiKn
+ztl/v/X4UBuvzYfYcwC7Qvv/Bx/HSq0+XnpORijMYdBvGhpS/AFMvcLL
+               "], {{0, 24.}, {24., 0}}, {0, 255}, ColorFunction -> RGBColor, 
+               ImageResolution -> {150, 150}], 
+              BoxForm`ImageTag[
+              "Byte", ColorSpace -> ColorProfileData[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIj
+UFABpJaBSSGxoCCHCagqN6+kKMjdSSEiMkqB/QkDFwMbAw+Q1ExMLi5wDAjw
+AamG0ajg2zUGkIEMl3VBZmHK4wVcKanFyUD6DxBnJxcUlTAwMGYA2crlJQUg
+dg+QLZKUDWYvALGLgA4EsreA2OkQ9gmwGgj7DlhNSJAzkP0ByOZLArPBnuVL
+h7BBYcIHtRcEBB1T8pNSFUC+1zC0tLTQJNEPBEFJakUJiHbOL6gsykzPKFFw
+BIZUqoJnXrKejoKRgZEBAwMo3CGqPweCw5NR7AxCDAEQYnMkGBj8lzIwsPxB
+iJn0MjAs0GFg4J+KEFMzZGAQ0Gdg2DcnubSoDGoMI5MxAwMhPgDa31bA
+                 "], "RGB", "XYZ"], Interleaving -> True, Magnification -> 
+               Automatic], Selectable -> False], DefaultBaseStyle -> 
+             "ImageGraphics", ImageSizeRaw -> {24., 24.}, 
+             PlotRange -> {{0, 24.}, {0, 24.}}, ImageSize -> 20], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["None", "SummaryItem"]}], "\[SpanFromLeft]"}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}]}, 
+       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+     "SummaryPanel"],
+    DynamicModuleValues:>{}], "]"}],
+  AssessmentFunction[{299792458 -> 10}, <|"Comparator" -> Greater|>],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{3.8834221633118324`*^9},
+ CellLabel->"Out[17]=",
+ CellID->451333537,ExpressionUUID->"4fbaab79-5a53-45cd-b689-a37823bebecf"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"$Speed$of$Light", "=", 
+  RowBox[{"QuestionObject", "[", 
+   RowBox[{
+   "\"\<Enter a speed in meters per second that is impossible to achieve \
+because its faster than the speed of light.\>\"", ",", "asmf"}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.8834221650485277`*^9, 3.88342219259359*^9}},
+ CellLabel->"In[38]:=",
+ CellID->664418113,ExpressionUUID->"219a0033-0265-4865-8653-2bd3f5a84be7"],
+
+Cell[BoxData[
+ InterpretationBox[
+  DynamicModuleBox[{QuestionFramework`Private`input$$ = Real[], 
+   QuestionFramework`Private`interpreter$$ = Identity, 
+   QuestionFramework`Private`result$$ = "", 
+   QuestionFramework`Private`buttonenabled$$ = True, 
+   QuestionFramework`Private`submissionCount$$ = 0, 
+   QuestionFramework`Private`submittedvalue$$ = ""}, 
+   DynamicBox[ToBoxes[
+     Framed[
+      Grid[{{
+        "Enter a speed in meters per second that is impossible to achieve \
+because its faster than the speed of light.", SpanFromLeft}, {
+         InputField[
+          Dynamic[QuestionFramework`Private`input$$], 
+          If[
+           
+           KeyExistsQ[<|
+            "FieldType" -> Number, "MinAnswers" -> 1, "Prompt" -> 
+             "Enter a speed in meters per second that is impossible to \
+achieve because its faster than the speed of light."|>, "Interpreter"], 
+           String, Number], 
+          Apply[Sequence, 
+           
+           Lookup[<|"FieldType" -> Number, "MinAnswers" -> 1, "Prompt" -> 
+             "Enter a speed in meters per second that is impossible to \
+achieve because its faster than the speed of light."|>, "FieldOptions", {}]]], 
+         If[
+          TrueQ[QuestionFramework`Private`$qointerpretersupport], 
+          QuestionFramework`Private`generalquestionTest[
+          QuestionFramework`Private`result$$, 
+           QuestionFramework`Private`input$$, 
+           QuestionFramework`Private`submittedvalue$$, 
+           AssessmentFunction[{299792458 -> 10}, <|"Comparator" -> Greater|>],
+            QuestionFramework`Private`interpreter$$], 
+          QuestionFramework`Private`generalquestionTest[
+          QuestionFramework`Private`result$$, 
+           QuestionFramework`Private`input$$, 
+           QuestionFramework`Private`submittedvalue$$, 
+           
+           AssessmentFunction[{299792458 -> 10}, <|
+            "Comparator" -> Greater|>]]]}, {
+         If[
+          Or[
+          AssessmentFunction[{299792458 -> 10}, <|"Comparator" -> Greater|>] === 
+           None, CurrentValue[
+             EvaluationNotebook[], {
+             TaggingRules, "FormNotebook", "SubmissionOptions", 
+              "GroupSubmissionFlag"}] === True], "", 
+          QuestionFramework`Private`submitButton[
+          QuestionFramework`Private`result$$ = If[
+              TrueQ[QuestionFramework`Private`$qointerpretersupport], 
+              
+              AssessmentFunction[{299792458 -> 10}, <|
+               "Comparator" -> Greater|>][
+               Interpreter[QuestionFramework`Private`interpreter$$][
+               QuestionFramework`Private`input$$], "SubmissionCount" -> 
+               QuestionFramework`Private`submissionCount$$], 
+              
+              AssessmentFunction[{299792458 -> 10}, <|
+               "Comparator" -> Greater|>][
+              QuestionFramework`Private`input$$, "SubmissionCount" -> 
+               QuestionFramework`Private`submissionCount$$]]; 
+           QuestionFramework`Private`submittedvalue$$ = 
+            QuestionFramework`Private`input$$; 
+           QuestionFramework`Private`submissionCount$$ = 
+            QuestionFramework`Private`getSubmissionCount[
+             QuestionFramework`Private`result$$]; 
+           QuestionFramework`Private`buttonenabled$$ = If[
+              QuestionFramework`Private`reachedMaxSubmissionsQ[
+              QuestionFramework`Private`result$$, 
+               QuestionFramework`Private`submissionCount$$], False, True, 
+              True]]], 
+         If[
+         Head[QuestionFramework`Private`result$$] === AssessmentResultObject, 
+          Row[{
+            If[Head[
+               QuestionFramework`Private`result$$["Explanation"]] === String, 
+             QuestionFramework`Private`result$$["Explanation"], ""]}, 
+           Spacer[5]], ""], SpanFromLeft}}, Alignment -> Left, 
+       Spacings -> {1, 1}], ImageSize -> If[
+        MatchQ[
+         CurrentValue[
+          EvaluationNotebook[], TaggingRules], 
+         KeyValuePattern["FormNotebook" -> Blank[List]]], {Full, Automatic}, 
+        Automatic], Background -> GrayLevel[1], FrameStyle -> 
+      RGBColor[0.7490196078431373, 0.7490196078431373, 0.7490196078431373], 
+      RoundingRadius -> 5, FrameMargins -> 10, BaseStyle -> "Panel"], 
+     StandardForm],
+    ImageSizeCache->{442., {42.933593688416295`, 47.066406311583705`}},
+    TrackedSymbols:>{
+     QuestionFramework`Private`result$$, QuestionFramework`Private`input$$, 
+      QuestionFramework`Private`submittedvalue$$}],
+   DynamicModuleValues:>{}],
+  QuestionObject[
+   QuestionInterface[
+   Automatic, 
+    "Enter a speed in meters per second that is impossible to achieve because \
+its faster than the speed of light."], 
+   AssessmentFunction[{299792458 -> 10}, <|
+    "Comparator" -> Greater|>]]]], "Output",
+ CellChangeTimes->{{3.8834221853125324`*^9, 3.883422192843565*^9}, 
+   3.8834226371677914`*^9},
+ CellLabel->"Out[38]=",
+ CellID->357454534,ExpressionUUID->"956e1651-1426-4ca5-916b-c78fe34ef368"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["$Speed$of$Light"], "Input",
+ CellChangeTimes->{{3.8834221936403484`*^9, 3.8834221945463734`*^9}},
+ CellLabel->"In[22]:=",
+ CellID->304986547,ExpressionUUID->"a6f7023c-9ed1-4483-b561-493767fc5ab1"],
+
+Cell[BoxData[
+ InterpretationBox[
+  DynamicModuleBox[{QuestionFramework`Private`input$$ = 3, 
+   QuestionFramework`Private`interpreter$$ = Identity, 
+   QuestionFramework`Private`result$$ = 
+   AssessmentResultObject[<|
+    "Score" -> 0, "MaxScore" -> 10, "MinScore" -> 0, "AnswerCorrect" -> False,
+      "GivenAnswer" -> 3, "Explanation" -> None, "Timestamp" -> 
+     DateObject[{2023, 1, 22, 19, 23, 30.2074869`9.23268950315148}, "Instant",
+        "Gregorian", -5.], "AssessmentOptions" -> {}, 
+     "AnswerComparisonMethod" -> None, "SubmissionCount" -> 1|>], 
+   QuestionFramework`Private`buttonenabled$$ = True, 
+   QuestionFramework`Private`submissionCount$$ = 1, 
+   QuestionFramework`Private`submittedvalue$$ = 3}, 
+   DynamicBox[ToBoxes[
+     Framed[
+      Grid[{{
+        "Enter a speed in meters per second that is impossible to achieve \
+because its faster than the speed of light.", SpanFromLeft}, {
+         InputField[
+          Dynamic[QuestionFramework`Private`input$$], 
+          If[
+           
+           KeyExistsQ[<|
+            "FieldType" -> Number, "MinAnswers" -> 1, "Prompt" -> 
+             "Enter a speed in meters per second that is impossible to \
+achieve because its faster than the speed of light."|>, "Interpreter"], 
+           String, Number], 
+          Apply[Sequence, 
+           
+           Lookup[<|"FieldType" -> Number, "MinAnswers" -> 1, "Prompt" -> 
+             "Enter a speed in meters per second that is impossible to \
+achieve because its faster than the speed of light."|>, "FieldOptions", {}]]], 
+         If[
+          TrueQ[QuestionFramework`Private`$qointerpretersupport], 
+          QuestionFramework`Private`generalquestionTest[
+          QuestionFramework`Private`result$$, 
+           QuestionFramework`Private`input$$, 
+           QuestionFramework`Private`submittedvalue$$, 
+           AssessmentFunction[{299792458 -> 10}, <|"Comparator" -> Greater|>],
+            QuestionFramework`Private`interpreter$$], 
+          QuestionFramework`Private`generalquestionTest[
+          QuestionFramework`Private`result$$, 
+           QuestionFramework`Private`input$$, 
+           QuestionFramework`Private`submittedvalue$$, 
+           
+           AssessmentFunction[{299792458 -> 10}, <|
+            "Comparator" -> Greater|>]]]}, {
+         If[
+          Or[
+          AssessmentFunction[{299792458 -> 10}, <|"Comparator" -> Greater|>] === 
+           None, CurrentValue[
+             EvaluationNotebook[], {
+             TaggingRules, "FormNotebook", "SubmissionOptions", 
+              "GroupSubmissionFlag"}] === True], "", 
+          QuestionFramework`Private`submitButton[
+          QuestionFramework`Private`result$$ = If[
+              TrueQ[QuestionFramework`Private`$qointerpretersupport], 
+              
+              AssessmentFunction[{299792458 -> 10}, <|
+               "Comparator" -> Greater|>][
+               Interpreter[QuestionFramework`Private`interpreter$$][
+               QuestionFramework`Private`input$$], "SubmissionCount" -> 
+               QuestionFramework`Private`submissionCount$$], 
+              
+              AssessmentFunction[{299792458 -> 10}, <|
+               "Comparator" -> Greater|>][
+              QuestionFramework`Private`input$$, "SubmissionCount" -> 
+               QuestionFramework`Private`submissionCount$$]]; 
+           QuestionFramework`Private`submittedvalue$$ = 
+            QuestionFramework`Private`input$$; 
+           QuestionFramework`Private`submissionCount$$ = 
+            QuestionFramework`Private`getSubmissionCount[
+             QuestionFramework`Private`result$$]; 
+           QuestionFramework`Private`buttonenabled$$ = If[
+              QuestionFramework`Private`reachedMaxSubmissionsQ[
+              QuestionFramework`Private`result$$, 
+               QuestionFramework`Private`submissionCount$$], False, True, 
+              True]]], 
+         If[
+         Head[QuestionFramework`Private`result$$] === AssessmentResultObject, 
+          Row[{
+            If[Head[
+               QuestionFramework`Private`result$$["Explanation"]] === String, 
+             QuestionFramework`Private`result$$["Explanation"], ""]}, 
+           Spacer[5]], ""], SpanFromLeft}}, Alignment -> Left, 
+       Spacings -> {1, 1}], ImageSize -> If[
+        MatchQ[
+         CurrentValue[
+          EvaluationNotebook[], TaggingRules], 
+         KeyValuePattern["FormNotebook" -> Blank[List]]], {Full, Automatic}, 
+        Automatic], Background -> GrayLevel[1], FrameStyle -> 
+      RGBColor[0.7490196078431373, 0.7490196078431373, 0.7490196078431373], 
+      RoundingRadius -> 5, FrameMargins -> 10, BaseStyle -> "Panel"], 
+     StandardForm],
+    ImageSizeCache->{442., {44.433593688416295`, 48.566406311583705`}},
+    TrackedSymbols:>{
+     QuestionFramework`Private`result$$, QuestionFramework`Private`input$$, 
+      QuestionFramework`Private`submittedvalue$$}],
+   DynamicModuleValues:>{}],
+  QuestionObject[
+   QuestionInterface[
+   Automatic, 
+    "Enter a speed in meters per second that is impossible to achieve because \
+its faster than the speed of light."], 
+   AssessmentFunction[{299792458 -> 10}, <|
+    "Comparator" -> Greater|>]]]], "Output",
+ CellChangeTimes->{3.883422205397535*^9},
+ CellLabel->"Out[22]=",
+ CellID->529644739,ExpressionUUID->"9c8b7daa-500e-48a6-b42c-02f3c1fd1dcb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["$Speed$of$Light"], "Input",
+ CellChangeTimes->{{3.8834221936403484`*^9, 3.8834222113952055`*^9}},
+ CellLabel->"In[23]:=",
+ CellID->571583838,ExpressionUUID->"3a04ee37-e882-4cab-aa48-6397bdfb0ad4"],
+
+Cell[BoxData[
+ InterpretationBox[
+  DynamicModuleBox[{QuestionFramework`Private`input$$ = 123456789, 
+   QuestionFramework`Private`interpreter$$ = Identity, 
+   QuestionFramework`Private`result$$ = 
+   AssessmentResultObject[<|
+    "Score" -> 0, "MaxScore" -> 10, "MinScore" -> 0, "AnswerCorrect" -> False,
+      "GivenAnswer" -> 123456789, "Explanation" -> None, "Timestamp" -> 
+     DateObject[{2023, 1, 22, 19, 23, 38.8529977`9.341999417900277}, 
+       "Instant", "Gregorian", -5.], "AssessmentOptions" -> {}, 
+     "AnswerComparisonMethod" -> None, "SubmissionCount" -> 1|>], 
+   QuestionFramework`Private`buttonenabled$$ = True, 
+   QuestionFramework`Private`submissionCount$$ = 1, 
+   QuestionFramework`Private`submittedvalue$$ = 123456789}, 
+   DynamicBox[ToBoxes[
+     Framed[
+      Grid[{{
+        "Enter a speed in meters per second that is impossible to achieve \
+because its faster than the speed of light.", SpanFromLeft}, {
+         InputField[
+          Dynamic[QuestionFramework`Private`input$$], 
+          If[
+           
+           KeyExistsQ[<|
+            "FieldType" -> Number, "MinAnswers" -> 1, "Prompt" -> 
+             "Enter a speed in meters per second that is impossible to \
+achieve because its faster than the speed of light."|>, "Interpreter"], 
+           String, Number], 
+          Apply[Sequence, 
+           
+           Lookup[<|"FieldType" -> Number, "MinAnswers" -> 1, "Prompt" -> 
+             "Enter a speed in meters per second that is impossible to \
+achieve because its faster than the speed of light."|>, "FieldOptions", {}]]], 
+         If[
+          TrueQ[QuestionFramework`Private`$qointerpretersupport], 
+          QuestionFramework`Private`generalquestionTest[
+          QuestionFramework`Private`result$$, 
+           QuestionFramework`Private`input$$, 
+           QuestionFramework`Private`submittedvalue$$, 
+           AssessmentFunction[{299792458 -> 10}, <|"Comparator" -> Greater|>],
+            QuestionFramework`Private`interpreter$$], 
+          QuestionFramework`Private`generalquestionTest[
+          QuestionFramework`Private`result$$, 
+           QuestionFramework`Private`input$$, 
+           QuestionFramework`Private`submittedvalue$$, 
+           
+           AssessmentFunction[{299792458 -> 10}, <|
+            "Comparator" -> Greater|>]]]}, {
+         If[
+          Or[
+          AssessmentFunction[{299792458 -> 10}, <|"Comparator" -> Greater|>] === 
+           None, CurrentValue[
+             EvaluationNotebook[], {
+             TaggingRules, "FormNotebook", "SubmissionOptions", 
+              "GroupSubmissionFlag"}] === True], "", 
+          QuestionFramework`Private`submitButton[
+          QuestionFramework`Private`result$$ = If[
+              TrueQ[QuestionFramework`Private`$qointerpretersupport], 
+              
+              AssessmentFunction[{299792458 -> 10}, <|
+               "Comparator" -> Greater|>][
+               Interpreter[QuestionFramework`Private`interpreter$$][
+               QuestionFramework`Private`input$$], "SubmissionCount" -> 
+               QuestionFramework`Private`submissionCount$$], 
+              
+              AssessmentFunction[{299792458 -> 10}, <|
+               "Comparator" -> Greater|>][
+              QuestionFramework`Private`input$$, "SubmissionCount" -> 
+               QuestionFramework`Private`submissionCount$$]]; 
+           QuestionFramework`Private`submittedvalue$$ = 
+            QuestionFramework`Private`input$$; 
+           QuestionFramework`Private`submissionCount$$ = 
+            QuestionFramework`Private`getSubmissionCount[
+             QuestionFramework`Private`result$$]; 
+           QuestionFramework`Private`buttonenabled$$ = If[
+              QuestionFramework`Private`reachedMaxSubmissionsQ[
+              QuestionFramework`Private`result$$, 
+               QuestionFramework`Private`submissionCount$$], False, True, 
+              True]]], 
+         If[
+         Head[QuestionFramework`Private`result$$] === AssessmentResultObject, 
+          Row[{
+            If[Head[
+               QuestionFramework`Private`result$$["Explanation"]] === String, 
+             QuestionFramework`Private`result$$["Explanation"], ""]}, 
+           Spacer[5]], ""], SpanFromLeft}}, Alignment -> Left, 
+       Spacings -> {1, 1}], ImageSize -> If[
+        MatchQ[
+         CurrentValue[
+          EvaluationNotebook[], TaggingRules], 
+         KeyValuePattern["FormNotebook" -> Blank[List]]], {Full, Automatic}, 
+        Automatic], Background -> GrayLevel[1], FrameStyle -> 
+      RGBColor[0.7490196078431373, 0.7490196078431373, 0.7490196078431373], 
+      RoundingRadius -> 5, FrameMargins -> 10, BaseStyle -> "Panel"], 
+     StandardForm],
+    ImageSizeCache->{442., {44.433593688416295`, 48.566406311583705`}},
+    TrackedSymbols:>{
+     QuestionFramework`Private`result$$, QuestionFramework`Private`input$$, 
+      QuestionFramework`Private`submittedvalue$$}],
+   DynamicModuleValues:>{}],
+  QuestionObject[
+   QuestionInterface[
+   Automatic, 
+    "Enter a speed in meters per second that is impossible to achieve because \
+its faster than the speed of light."], 
+   AssessmentFunction[{299792458 -> 10}, <|
+    "Comparator" -> Greater|>]]]], "Output",
+ CellChangeTimes->{3.883422212584365*^9},
+ CellLabel->"Out[23]=",
+ CellID->387261565,ExpressionUUID->"271ae394-ef25-42bf-9dcb-d4235ed947b3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["$Speed$of$Light"], "Input",
+ CellChangeTimes->{{3.8834221936403484`*^9, 3.8834222202585964`*^9}},
+ CellLabel->"In[24]:=",
+ CellID->42651779,ExpressionUUID->"39d5929f-1c5e-493c-a339-964cf000db81"],
+
+Cell[BoxData[
+ InterpretationBox[
+  DynamicModuleBox[{QuestionFramework`Private`input$$ = 1234567891, 
+   QuestionFramework`Private`interpreter$$ = Identity, 
+   QuestionFramework`Private`result$$ = 
+   AssessmentResultObject[<|
+    "Score" -> 10, "MaxScore" -> 10, "MinScore" -> 0, "AnswerCorrect" -> True,
+      "GivenAnswer" -> 1234567891, "Explanation" -> None, "Timestamp" -> 
+     DateObject[{2023, 1, 22, 19, 23, 48.5913143`9.4391335042766}, "Instant", 
+       "Gregorian", -5.], "AssessmentOptions" -> {}, "AnswerComparisonMethod" -> 
+     None, "SubmissionCount" -> 1|>], 
+   QuestionFramework`Private`buttonenabled$$ = True, 
+   QuestionFramework`Private`submissionCount$$ = 1, 
+   QuestionFramework`Private`submittedvalue$$ = 1234567891}, 
+   DynamicBox[ToBoxes[
+     Framed[
+      Grid[{{
+        "Enter a speed in meters per second that is impossible to achieve \
+because its faster than the speed of light.", SpanFromLeft}, {
+         InputField[
+          Dynamic[QuestionFramework`Private`input$$], 
+          If[
+           
+           KeyExistsQ[<|
+            "FieldType" -> Number, "MinAnswers" -> 1, "Prompt" -> 
+             "Enter a speed in meters per second that is impossible to \
+achieve because its faster than the speed of light."|>, "Interpreter"], 
+           String, Number], 
+          Apply[Sequence, 
+           
+           Lookup[<|"FieldType" -> Number, "MinAnswers" -> 1, "Prompt" -> 
+             "Enter a speed in meters per second that is impossible to \
+achieve because its faster than the speed of light."|>, "FieldOptions", {}]]], 
+         If[
+          TrueQ[QuestionFramework`Private`$qointerpretersupport], 
+          QuestionFramework`Private`generalquestionTest[
+          QuestionFramework`Private`result$$, 
+           QuestionFramework`Private`input$$, 
+           QuestionFramework`Private`submittedvalue$$, 
+           AssessmentFunction[{299792458 -> 10}, <|"Comparator" -> Greater|>],
+            QuestionFramework`Private`interpreter$$], 
+          QuestionFramework`Private`generalquestionTest[
+          QuestionFramework`Private`result$$, 
+           QuestionFramework`Private`input$$, 
+           QuestionFramework`Private`submittedvalue$$, 
+           
+           AssessmentFunction[{299792458 -> 10}, <|
+            "Comparator" -> Greater|>]]]}, {
+         If[
+          Or[
+          AssessmentFunction[{299792458 -> 10}, <|"Comparator" -> Greater|>] === 
+           None, CurrentValue[
+             EvaluationNotebook[], {
+             TaggingRules, "FormNotebook", "SubmissionOptions", 
+              "GroupSubmissionFlag"}] === True], "", 
+          QuestionFramework`Private`submitButton[
+          QuestionFramework`Private`result$$ = If[
+              TrueQ[QuestionFramework`Private`$qointerpretersupport], 
+              
+              AssessmentFunction[{299792458 -> 10}, <|
+               "Comparator" -> Greater|>][
+               Interpreter[QuestionFramework`Private`interpreter$$][
+               QuestionFramework`Private`input$$], "SubmissionCount" -> 
+               QuestionFramework`Private`submissionCount$$], 
+              
+              AssessmentFunction[{299792458 -> 10}, <|
+               "Comparator" -> Greater|>][
+              QuestionFramework`Private`input$$, "SubmissionCount" -> 
+               QuestionFramework`Private`submissionCount$$]]; 
+           QuestionFramework`Private`submittedvalue$$ = 
+            QuestionFramework`Private`input$$; 
+           QuestionFramework`Private`submissionCount$$ = 
+            QuestionFramework`Private`getSubmissionCount[
+             QuestionFramework`Private`result$$]; 
+           QuestionFramework`Private`buttonenabled$$ = If[
+              QuestionFramework`Private`reachedMaxSubmissionsQ[
+              QuestionFramework`Private`result$$, 
+               QuestionFramework`Private`submissionCount$$], False, True, 
+              True]]], 
+         If[
+         Head[QuestionFramework`Private`result$$] === AssessmentResultObject, 
+          Row[{
+            If[Head[
+               QuestionFramework`Private`result$$["Explanation"]] === String, 
+             QuestionFramework`Private`result$$["Explanation"], ""]}, 
+           Spacer[5]], ""], SpanFromLeft}}, Alignment -> Left, 
+       Spacings -> {1, 1}], ImageSize -> If[
+        MatchQ[
+         CurrentValue[
+          EvaluationNotebook[], TaggingRules], 
+         KeyValuePattern["FormNotebook" -> Blank[List]]], {Full, Automatic}, 
+        Automatic], Background -> GrayLevel[1], FrameStyle -> 
+      RGBColor[0.7490196078431373, 0.7490196078431373, 0.7490196078431373], 
+      RoundingRadius -> 5, FrameMargins -> 10, BaseStyle -> "Panel"], 
+     StandardForm],
+    ImageSizeCache->{442., {44.433593688416295`, 48.566406311583705`}},
+    TrackedSymbols:>{
+     QuestionFramework`Private`result$$, QuestionFramework`Private`input$$, 
+      QuestionFramework`Private`submittedvalue$$}],
+   DynamicModuleValues:>{}],
+  QuestionObject[
+   QuestionInterface[
+   Automatic, 
+    "Enter a speed in meters per second that is impossible to achieve because \
+its faster than the speed of light."], 
+   AssessmentFunction[{299792458 -> 10}, <|
+    "Comparator" -> Greater|>]]]], "Output",
+ CellChangeTimes->{3.8834222211180096`*^9},
+ CellLabel->"Out[24]=",
+ CellID->9968185,ExpressionUUID->"27199f14-e9c0-463e-9872-d8c1a7395542"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"$favorite$class", "=", 
+  RowBox[{"QuestionObject", "[", 
+   RowBox[{"QuestionInterface", "[", 
+    RowBox[{"\"\<ShortAnswer\>\"", ",", 
+     RowBox[{"<|", 
+      RowBox[{
+      "\"\<Prompt\>\"", "->", "\"\<What is your favorite class?\>\""}], 
+      "|>"}]}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.883422256839534*^9, 3.8834222717359657`*^9}},
+ CellLabel->"In[25]:=",
+ CellID->267028952,ExpressionUUID->"d9f49cf8-756d-4623-a649-2583aaa6461b"],
+
+Cell[BoxData[
+ InterpretationBox[
+  DynamicModuleBox[{QuestionFramework`Private`input$$ = Null, 
+   QuestionFramework`Private`interpreter$$ = Identity, 
+   QuestionFramework`Private`result$$ = "", 
+   QuestionFramework`Private`buttonenabled$$ = True, 
+   QuestionFramework`Private`submissionCount$$ = 0, 
+   QuestionFramework`Private`submittedvalue$$ = ""}, 
+   DynamicBox[ToBoxes[
+     Framed[
+      Grid[{{"What is your favorite class?", SpanFromLeft}, {
+         InputField[
+          Dynamic[QuestionFramework`Private`input$$], 
+          If[
+           
+           KeyExistsQ[<|
+            "FieldType" -> Expression, "MinAnswers" -> 1, "Prompt" -> 
+             "What is your favorite class?"|>, "Interpreter"], String, 
+           Expression], 
+          Apply[Sequence, 
+           
+           Lookup[<|"FieldType" -> Expression, "MinAnswers" -> 1, "Prompt" -> 
+             "What is your favorite class?"|>, "FieldOptions", {}]]], 
+         If[
+          TrueQ[QuestionFramework`Private`$qointerpretersupport], 
+          QuestionFramework`Private`generalquestionTest[
+          QuestionFramework`Private`result$$, 
+           QuestionFramework`Private`input$$, 
+           QuestionFramework`Private`submittedvalue$$, None, 
+           QuestionFramework`Private`interpreter$$], 
+          QuestionFramework`Private`generalquestionTest[
+          QuestionFramework`Private`result$$, 
+           QuestionFramework`Private`input$$, 
+           QuestionFramework`Private`submittedvalue$$, None]]}, {
+         If[
+          Or[None === None, CurrentValue[
+             EvaluationNotebook[], {
+             TaggingRules, "FormNotebook", "SubmissionOptions", 
+              "GroupSubmissionFlag"}] === True], "", 
+          QuestionFramework`Private`submitButton[
+          QuestionFramework`Private`result$$ = If[
+              TrueQ[QuestionFramework`Private`$qointerpretersupport], 
+              None[
+               Interpreter[QuestionFramework`Private`interpreter$$][
+               QuestionFramework`Private`input$$], "SubmissionCount" -> 
+               QuestionFramework`Private`submissionCount$$], 
+              None[
+              QuestionFramework`Private`input$$, "SubmissionCount" -> 
+               QuestionFramework`Private`submissionCount$$]]; 
+           QuestionFramework`Private`submittedvalue$$ = 
+            QuestionFramework`Private`input$$; 
+           QuestionFramework`Private`submissionCount$$ = 
+            QuestionFramework`Private`getSubmissionCount[
+             QuestionFramework`Private`result$$]; 
+           QuestionFramework`Private`buttonenabled$$ = If[
+              QuestionFramework`Private`reachedMaxSubmissionsQ[
+              QuestionFramework`Private`result$$, 
+               QuestionFramework`Private`submissionCount$$], False, True, 
+              True]]], 
+         If[
+         Head[QuestionFramework`Private`result$$] === AssessmentResultObject, 
+          Row[{
+            If[Head[
+               QuestionFramework`Private`result$$["Explanation"]] === String, 
+             QuestionFramework`Private`result$$["Explanation"], ""]}, 
+           Spacer[5]], ""], SpanFromLeft}}, Alignment -> Left, 
+       Spacings -> {1, 1}], ImageSize -> If[
+        MatchQ[
+         CurrentValue[
+          EvaluationNotebook[], TaggingRules], 
+         KeyValuePattern["FormNotebook" -> Blank[List]]], {Full, Automatic}, 
+        Automatic], Background -> GrayLevel[1], FrameStyle -> 
+      RGBColor[0.7490196078431373, 0.7490196078431373, 0.7490196078431373], 
+      RoundingRadius -> 5, FrameMargins -> 10, BaseStyle -> "Panel"], 
+     StandardForm],
+    ImageSizeCache->{211., {36.933593688416295`, 41.066406311583705`}},
+    TrackedSymbols:>{
+     QuestionFramework`Private`result$$, QuestionFramework`Private`input$$, 
+      QuestionFramework`Private`submittedvalue$$}],
+   DynamicModuleValues:>{}],
+  QuestionObject[
+   QuestionInterface[
+   "ShortAnswer", <|"Prompt" -> "What is your favorite class?"|>], 
+   None]]], "Output",
+ CellChangeTimes->{3.8834222724541874`*^9},
+ CellLabel->"Out[25]=",
+ CellID->262518575,ExpressionUUID->"6295f56d-3d75-4423-a579-4008df6ab571"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["$favorite$class"], "Input",
+ CellChangeTimes->{{3.8834222736574135`*^9, 3.883422274455017*^9}},
+ CellLabel->"In[26]:=",
+ CellID->162858871,ExpressionUUID->"5bd1865f-3a6d-436b-aa5d-836c4a488ce3"],
+
+Cell[BoxData[
+ InterpretationBox[
+  DynamicModuleBox[{
+   QuestionFramework`Private`input$$ = $CellContext`geography, 
+   QuestionFramework`Private`interpreter$$ = Identity, 
+   QuestionFramework`Private`result$$ = "", 
+   QuestionFramework`Private`buttonenabled$$ = True, 
+   QuestionFramework`Private`submissionCount$$ = 0, 
+   QuestionFramework`Private`submittedvalue$$ = ""}, 
+   DynamicBox[ToBoxes[
+     Framed[
+      Grid[{{"What is your favorite class?", SpanFromLeft}, {
+         InputField[
+          Dynamic[QuestionFramework`Private`input$$], 
+          If[
+           
+           KeyExistsQ[<|
+            "FieldType" -> Expression, "MinAnswers" -> 1, "Prompt" -> 
+             "What is your favorite class?"|>, "Interpreter"], String, 
+           Expression], 
+          Apply[Sequence, 
+           
+           Lookup[<|"FieldType" -> Expression, "MinAnswers" -> 1, "Prompt" -> 
+             "What is your favorite class?"|>, "FieldOptions", {}]]], 
+         If[
+          TrueQ[QuestionFramework`Private`$qointerpretersupport], 
+          QuestionFramework`Private`generalquestionTest[
+          QuestionFramework`Private`result$$, 
+           QuestionFramework`Private`input$$, 
+           QuestionFramework`Private`submittedvalue$$, None, 
+           QuestionFramework`Private`interpreter$$], 
+          QuestionFramework`Private`generalquestionTest[
+          QuestionFramework`Private`result$$, 
+           QuestionFramework`Private`input$$, 
+           QuestionFramework`Private`submittedvalue$$, None]]}, {
+         If[
+          Or[None === None, CurrentValue[
+             EvaluationNotebook[], {
+             TaggingRules, "FormNotebook", "SubmissionOptions", 
+              "GroupSubmissionFlag"}] === True], "", 
+          QuestionFramework`Private`submitButton[
+          QuestionFramework`Private`result$$ = If[
+              TrueQ[QuestionFramework`Private`$qointerpretersupport], 
+              None[
+               Interpreter[QuestionFramework`Private`interpreter$$][
+               QuestionFramework`Private`input$$], "SubmissionCount" -> 
+               QuestionFramework`Private`submissionCount$$], 
+              None[
+              QuestionFramework`Private`input$$, "SubmissionCount" -> 
+               QuestionFramework`Private`submissionCount$$]]; 
+           QuestionFramework`Private`submittedvalue$$ = 
+            QuestionFramework`Private`input$$; 
+           QuestionFramework`Private`submissionCount$$ = 
+            QuestionFramework`Private`getSubmissionCount[
+             QuestionFramework`Private`result$$]; 
+           QuestionFramework`Private`buttonenabled$$ = If[
+              QuestionFramework`Private`reachedMaxSubmissionsQ[
+              QuestionFramework`Private`result$$, 
+               QuestionFramework`Private`submissionCount$$], False, True, 
+              True]]], 
+         If[
+         Head[QuestionFramework`Private`result$$] === AssessmentResultObject, 
+          Row[{
+            If[Head[
+               QuestionFramework`Private`result$$["Explanation"]] === String, 
+             QuestionFramework`Private`result$$["Explanation"], ""]}, 
+           Spacer[5]], ""], SpanFromLeft}}, Alignment -> Left, 
+       Spacings -> {1, 1}], ImageSize -> If[
+        MatchQ[
+         CurrentValue[
+          EvaluationNotebook[], TaggingRules], 
+         KeyValuePattern["FormNotebook" -> Blank[List]]], {Full, Automatic}, 
+        Automatic], Background -> GrayLevel[1], FrameStyle -> 
+      RGBColor[0.7490196078431373, 0.7490196078431373, 0.7490196078431373], 
+      RoundingRadius -> 5, FrameMargins -> 10, BaseStyle -> "Panel"], 
+     StandardForm],
+    ImageSizeCache->{211., {36.933593688416295`, 41.066406311583705`}},
+    TrackedSymbols:>{
+     QuestionFramework`Private`result$$, QuestionFramework`Private`input$$, 
+      QuestionFramework`Private`submittedvalue$$}],
+   DynamicModuleValues:>{}],
+  QuestionObject[
+   QuestionInterface[
+   "ShortAnswer", <|"Prompt" -> "What is your favorite class?"|>], 
+   None]]], "Output",
+ CellChangeTimes->{3.883422274829937*^9},
+ CellLabel->"Out[26]=",
+ CellID->204451556,ExpressionUUID->"7a7a60c0-f1c8-4840-993d-0ba913d16514"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Information", "[", 
+  RowBox[{"AssessmentFunction", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"\"\<Dog\>\"", "\[Rule]", "True"}], ",", 
+     RowBox[{"\"\<Cat\>\"", "\[Rule]", "False"}]}], "}"}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.8834223083924665`*^9, 3.8834223290596724`*^9}, {
+  3.883422367533296*^9, 3.883422386447695*^9}},
+ CellLabel->"In[33]:=",
+ CellID->210476375,ExpressionUUID->"6541f8ce-ff74-4df6-a5d4-b524a67f4a6d"],
+
+Cell[BoxData[
+ InterpretationBox[
+  StyleBox[
+   FrameBox[
+    TagBox[GridBox[{
+       {
+        ItemBox[
+         PaneBox[
+          StyleBox["\<\" Assessment Function\"\>", "InformationTitleText",
+           StripOnInput->False],
+          FrameMargins->{{4, 0}, {-1, 1}}],
+         BaseStyle->"InformationTitleBackground",
+         StripOnInput->False]},
+       {
+        PaneBox[GridBox[{
+           {
+            
+            DynamicModuleBox[{System`InformationDump`open$$ = {
+             False, False, False, False, False}}, 
+             StyleBox[GridBox[{
+                {
+                 TagBox[
+                  TooltipBox[
+                   
+                   StyleBox["\<\" Answer Comparison Method\"\>", 
+                    "InformationRowLabel",
+                    StripOnInput->False],
+                   "\"AnswerComparisonMethod\"",
+                   TooltipStyle->"TextStyling"],
+                  
+                  Annotation[#, "AnswerComparisonMethod", 
+                   "Tooltip"]& ], "\<\"String\"\>"},
+                {
+                 TagBox[
+                  TooltipBox[
+                   StyleBox["\<\" Key\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                   "\"Key\"",
+                   TooltipStyle->"TextStyling"],
+                  Annotation[#, "Key", "Tooltip"]& ], 
+                 RowBox[{"{", 
+                  RowBox[{
+                   RowBox[{"\<\"Dog\"\>", "\[Rule]", "True"}], ",", 
+                   RowBox[{"\<\"Cat\"\>", "\[Rule]", "False"}]}], "}"}]},
+                {
+                 TagBox[
+                  TooltipBox[
+                   
+                   StyleBox["\<\" Question Interface\"\>", 
+                    "InformationRowLabel",
+                    StripOnInput->False],
+                   "\"QuestionInterface\"",
+                   TooltipStyle->"TextStyling"],
+                  Annotation[#, "QuestionInterface", "Tooltip"]& ], 
+                 RowBox[{"\[LeftAssociation]", 
+                  RowBox[{
+                   RowBox[{"\<\"Choices\"\>", "\[Rule]", 
+                    RowBox[{"{", 
+                    RowBox[{"\<\"Dog\"\>", ",", "\<\"Cat\"\>"}], "}"}]}], ",", 
+                   RowBox[{"\<\"ChoiceOrdering\"\>", "\[Rule]", "Sort"}], ",", 
+                   RowBox[{"\<\"MaxAnswers\"\>", "\[Rule]", "1"}], ",", 
+                   RowBox[{"\<\"MinAnswers\"\>", "\[Rule]", "1"}]}], 
+                  "\[RightAssociation]"}]},
+                {
+                 TagBox[
+                  TooltipBox[
+                   StyleBox["\<\" Properties\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                   "\"Properties\"",
+                   TooltipStyle->"TextStyling"],
+                  Annotation[#, "Properties", "Tooltip"]& ], 
+                 RowBox[{"{", 
+                  RowBox[{"\<\"Key\"\>", ",", "\<\"QuestionInterface\"\>"}], 
+                  "}"}]}
+               },
+               AutoDelete->False,
+               GridBoxAlignment->{"Columns" -> {Right, Left}},
+               GridBoxDividers->None,
+               GridBoxItemSize->{"Columns" -> {Automatic, Automatic}},
+               GridBoxSpacings->{"Columns" -> {
+                   Offset[0.27999999999999997`], {
+                    Offset[0.5599999999999999]}, 
+                   Offset[0.27999999999999997`]}, "Rows" -> {
+                   Offset[0.2], {
+                    Offset[0.8]}, 
+                   Offset[0.2]}}], "DialogStyle",
+              StripOnInput->False],
+             DynamicModuleValues:>{}]}
+          },
+          DefaultBaseStyle->"Column",
+          GridBoxAlignment->{"Columns" -> {{Left}}},
+          GridBoxDividers->{"Columns" -> {{False}}, "Rows" -> {{False}}},
+          
+          GridBoxItemSize->{
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+          GridBoxSpacings->{"Columns" -> {
+              Offset[0.27999999999999997`], {
+               Offset[0.5599999999999999]}, 
+              Offset[0.27999999999999997`]}, "Rows" -> {
+              Offset[0.2], {
+               Offset[3.6]}, 
+              Offset[0.2]}}],
+         FrameMargins->6]}
+      },
+      DefaultBaseStyle->"Column",
+      FrameStyle->Directive[
+        GrayLevel[0.8], 
+        Thickness[Tiny]],
+      GridBoxAlignment->{"Columns" -> {{Left}}},
+      GridBoxDividers->{
+       "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+      GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+     "Column"],
+    BaseStyle->"InformationGridFrame",
+    StripOnInput->False], "InformationGridPlain",
+   StripOnInput->False],
+  InformationData[<|
+   "AnswerComparisonMethod" -> "String", "ObjectType" -> "AssessmentFunction",
+     "Key" -> {"Dog" -> True, "Cat" -> False}, 
+    "QuestionInterface" -> <|
+     "Choices" -> {"Dog", "Cat"}, "ChoiceOrdering" -> Sort, "MaxAnswers" -> 1,
+       "MinAnswers" -> 1|>, "Properties" -> {"Key", "QuestionInterface"}|>, 
+   True]]], "Output",
+ CellChangeTimes->{{3.8834223715030546`*^9, 3.883422387040965*^9}},
+ CellLabel->"Out[33]=",
+ CellID->220607441,ExpressionUUID->"6af36912-9cd1-4b8d-964b-af07958cf573"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"AssessmentFunction", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"\"\<Dog\>\"", "\[Rule]", "True"}], ",", 
+     RowBox[{"\"\<Cat\>\"", "\[Rule]", "False"}]}], "}"}], "]"}], "[", "1", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.883422393728273*^9, 3.883422396513954*^9}},
+ CellLabel->"In[34]:=",
+ CellID->13895665,ExpressionUUID->"ba5d4754-0f21-4ffe-b71f-1447a4f8145a"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "AssessmentFunction", "invans", 
+   "\"The provided answer is not supported by the comparison method of the \
+assessment function.\"", 2, 34, 12, 21640550566897570380, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.883422396873257*^9},
+ CellLabel->"During evaluation of In[34]:=",
+ CellID->200932893,ExpressionUUID->"eedaaeb6-58c4-4be0-ad5e-0e277fef693c"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["AssessmentResultObject",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+    TemplateBox[{
+      PaneSelectorBox[{False -> GridBox[{{
+            GraphicsBox[
+             TagBox[
+              RasterBox[CompressedData["
+1:eJztmkFKw0AUhoO6cOkVvIIrtyIuiruKB2gxFjcRUkG8UVX0CMFlcoBAycpt
+jpDVmB+MhmIyk5nOTPp8P7xCSufl/8hk3kumx/P76e1eEATLw/pjOns8i+PZ
+09VRfXAdLe8WUXgziR7CRRifzvfrL0++46AOwWKxlFVVlcjzXGRZJtI0HVXA
+E7zBo0z4XZIkow54lAnMvn3KAh5lwvXz7VMW8DiUoygKUZal14AHUw7k8S14
+YA7m2LZsc3x+JGL9/mrsEzmQq0s2OXDe58sLsZqci/Xbiz5DPRY5kKuLxRZH
+m6EJHZaGoYkuFlscmAft8+uwbDL85PhjntqcV50+FFiGjrV9n+uw6Ixxse4O
+8aV7DV3VDxV/JvPQZR3s82nC4Jqjj8V0bfPRl6iwDK01vvqrPhadeskc/3te
+UbjPKay7FOoghb6EQp9IoW+n8hxF5bl2k2VX3zO0WXb9vY9LMQdz2NA2OKjs
+44wxVDio7HNS2Xem8j8AFov1qy/UT4TN
+               "], {{0, 24.}, {24., 0}}, {0, 255}, ColorFunction -> RGBColor, 
+               ImageResolution -> {150, 150}], 
+              BoxForm`ImageTag[
+              "Byte", ColorSpace -> ColorProfileData[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIj
+UFABpJaBSSGxoCCHCagqN6+kKMjdSSEiMkqB/QkDFwMrAx+DMgNnYnJxgWNA
+gA9INYxGBd+uMYAMZLisCzILUx4v4EpJLU4G0n+AODu5oKiEgYExA8hWLi8p
+ALF7gGyRpGwwewGIXQR0IJC9BcROh7BPgNVA2HfAakKCnIHsD0A2XxKYDfYs
+XzqEDQoTPqi9ICDomJKflKoA8r2GoaWlhSaJfiAISlIrSkC0c35BZVFmekaJ
+giMwpFIVPPOS9XQUjAyMDBgYQOEOUf05EByejGJnEGIIgBCbI8HA4L+UgYHl
+D0LMpJeBYYEOAwP/VISYmiEDg4A+A8O+OcmlRWVQYxiZjBkYCPEBzyVWug==
+
+                 "], "RGB", "XYZ"], Interleaving -> True, Magnification -> 
+               Automatic], Selectable -> False], DefaultBaseStyle -> 
+             "ImageGraphics", ImageSizeRaw -> {24., 24.}, 
+             PlotRange -> {{0, 24.}, {0, 24.}}, ImageSize -> 20], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"String\"", "SummaryItem"]}], "\[SpanFromLeft]"}, {
+               RowBox[{
+                 TagBox["\"ID: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["None", "SummaryItem"]}], "\[SpanFromLeft]"}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}], True -> GridBox[{{
+            GraphicsBox[
+             TagBox[
+              RasterBox[CompressedData["
+1:eJztmkFKw0AUhoO6cOkVvIIrtyIuiruKB2gxFjcRUkG8UVX0CMFlcoBAycpt
+jpDVmB+MhmIyk5nOTPp8P7xCSufl/8hk3kumx/P76e1eEATLw/pjOns8i+PZ
+09VRfXAdLe8WUXgziR7CRRifzvfrL0++46AOwWKxlFVVlcjzXGRZJtI0HVXA
+E7zBo0z4XZIkow54lAnMvn3KAh5lwvXz7VMW8DiUoygKUZal14AHUw7k8S14
+YA7m2LZsc3x+JGL9/mrsEzmQq0s2OXDe58sLsZqci/Xbiz5DPRY5kKuLxRZH
+m6EJHZaGoYkuFlscmAft8+uwbDL85PhjntqcV50+FFiGjrV9n+uw6Ixxse4O
+8aV7DV3VDxV/JvPQZR3s82nC4Jqjj8V0bfPRl6iwDK01vvqrPhadeskc/3te
+UbjPKay7FOoghb6EQp9IoW+n8hxF5bl2k2VX3zO0WXb9vY9LMQdz2NA2OKjs
+44wxVDio7HNS2Xem8j8AFov1qy/UT4TN
+               "], {{0, 24.}, {24., 0}}, {0, 255}, ColorFunction -> RGBColor, 
+               ImageResolution -> {150, 150}], 
+              BoxForm`ImageTag[
+              "Byte", ColorSpace -> ColorProfileData[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIj
+UFABpJaBSSGxoCCHCagqN6+kKMjdSSEiMkqB/QkDFwMrAx+DMgNnYnJxgWNA
+gA9INYxGBd+uMYAMZLisCzILUx4v4EpJLU4G0n+AODu5oKiEgYExA8hWLi8p
+ALF7gGyRpGwwewGIXQR0IJC9BcROh7BPgNVA2HfAakKCnIHsD0A2XxKYDfYs
+XzqEDQoTPqi9ICDomJKflKoA8r2GoaWlhSaJfiAISlIrSkC0c35BZVFmekaJ
+giMwpFIVPPOS9XQUjAyMDBgYQOEOUf05EByejGJnEGIIgBCbI8HA4L+UgYHl
+D0LMpJeBYYEOAwP/VISYmiEDg4A+A8O+OcmlRWVQYxiZjBkYCPEBzyVWug==
+
+                 "], "RGB", "XYZ"], Interleaving -> True, Magnification -> 
+               Automatic], Selectable -> False], DefaultBaseStyle -> 
+             "ImageGraphics", ImageSizeRaw -> {24., 24.}, 
+             PlotRange -> {{0, 24.}, {0, 24.}}, ImageSize -> 20], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"String\"", "SummaryItem"]}], "\[SpanFromLeft]"}, {
+               RowBox[{
+                 TagBox["\"ID: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["None", "SummaryItem"]}], "\[SpanFromLeft]"}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}]}, 
+       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+     "SummaryPanel"],
+    DynamicModuleValues:>{}], "]"}],
+  AssessmentResultObject[<|
+   "Score" -> 0, "MaxScore" -> 1, "MinScore" -> 0, "AnswerCorrect" -> False, 
+    "GivenAnswer" -> 1, "Explanation" -> None, "Timestamp" -> 
+    DateObject[{2023, 1, 22, 19, 26, 36.8732572`9.319286393682297}, "Instant",
+       "Gregorian", -5.], "AssessmentOptions" -> {}, "AnswerComparisonMethod" -> 
+    "String"|>],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{3.8834223969669495`*^9},
+ CellLabel->"Out[34]=",
+ CellID->455240130,ExpressionUUID->"13fc68b9-3fad-4e46-9e47-576c036f6d18"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"AssessmentFunction", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"\"\<Dog\>\"", "\[Rule]", "True"}], ",", 
+     RowBox[{"\"\<Cat\>\"", "\[Rule]", "False"}]}], "}"}], "]"}], "[", 
+  "\"\<dog\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.883422393728273*^9, 3.8834224013886557`*^9}},
+ CellLabel->"In[35]:=",
+ CellID->1025791628,ExpressionUUID->"67497c25-c4ed-4242-aee2-7bc8d12d2dba"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["AssessmentResultObject",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+    TemplateBox[{
+      PaneSelectorBox[{False -> GridBox[{{
+            GraphicsBox[
+             TagBox[
+              RasterBox[CompressedData["
+1:eJztmkFKw0AUhoO6cOkVvIIrtyIuiruKB2gxFjcRUkG8UVX0CMFlcoBAycpt
+jpDVmB+MhmIyk5nOTPp8P7xCSufl/8hk3kumx/P76e1eEATLw/pjOns8i+PZ
+09VRfXAdLe8WUXgziR7CRRifzvfrL0++46AOwWKxlFVVlcjzXGRZJtI0HVXA
+E7zBo0z4XZIkow54lAnMvn3KAh5lwvXz7VMW8DiUoygKUZal14AHUw7k8S14
+YA7m2LZsc3x+JGL9/mrsEzmQq0s2OXDe58sLsZqci/Xbiz5DPRY5kKuLxRZH
+m6EJHZaGoYkuFlscmAft8+uwbDL85PhjntqcV50+FFiGjrV9n+uw6Ixxse4O
+8aV7DV3VDxV/JvPQZR3s82nC4Jqjj8V0bfPRl6iwDK01vvqrPhadeskc/3te
+UbjPKay7FOoghb6EQp9IoW+n8hxF5bl2k2VX3zO0WXb9vY9LMQdz2NA2OKjs
+44wxVDio7HNS2Xem8j8AFov1qy/UT4TN
+               "], {{0, 24.}, {24., 0}}, {0, 255}, ColorFunction -> RGBColor, 
+               ImageResolution -> {150, 150}], 
+              BoxForm`ImageTag[
+              "Byte", ColorSpace -> ColorProfileData[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIj
+UFABpJaBSSGxoCCHCagqN6+kKMjdSSEiMkqB/QkDFwMrAx+DMgNnYnJxgWNA
+gA9INYxGBd+uMYAMZLisCzILUx4v4EpJLU4G0n+AODu5oKiEgYExA8hWLi8p
+ALF7gGyRpGwwewGIXQR0IJC9BcROh7BPgNVA2HfAakKCnIHsD0A2XxKYDfYs
+XzqEDQoTPqi9ICDomJKflKoA8r2GoaWlhSaJfiAISlIrSkC0c35BZVFmekaJ
+giMwpFIVPPOS9XQUjAyMDBgYQOEOUf05EByejGJnEGIIgBCbI8HA4L+UgYHl
+D0LMpJeBYYEOAwP/VISYmiEDg4A+A8O+OcmlRWVQYxiZjBkYCPEBzyVWug==
+
+                 "], "RGB", "XYZ"], Interleaving -> True, Magnification -> 
+               Automatic], Selectable -> False], DefaultBaseStyle -> 
+             "ImageGraphics", ImageSizeRaw -> {24., 24.}, 
+             PlotRange -> {{0, 24.}, {0, 24.}}, ImageSize -> 20], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"String\"", "SummaryItem"]}], "\[SpanFromLeft]"}, {
+               RowBox[{
+                 TagBox["\"ID: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["None", "SummaryItem"]}], "\[SpanFromLeft]"}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}], True -> GridBox[{{
+            GraphicsBox[
+             TagBox[
+              RasterBox[CompressedData["
+1:eJztmkFKw0AUhoO6cOkVvIIrtyIuiruKB2gxFjcRUkG8UVX0CMFlcoBAycpt
+jpDVmB+MhmIyk5nOTPp8P7xCSufl/8hk3kumx/P76e1eEATLw/pjOns8i+PZ
+09VRfXAdLe8WUXgziR7CRRifzvfrL0++46AOwWKxlFVVlcjzXGRZJtI0HVXA
+E7zBo0z4XZIkow54lAnMvn3KAh5lwvXz7VMW8DiUoygKUZal14AHUw7k8S14
+YA7m2LZsc3x+JGL9/mrsEzmQq0s2OXDe58sLsZqci/Xbiz5DPRY5kKuLxRZH
+m6EJHZaGoYkuFlscmAft8+uwbDL85PhjntqcV50+FFiGjrV9n+uw6Ixxse4O
+8aV7DV3VDxV/JvPQZR3s82nC4Jqjj8V0bfPRl6iwDK01vvqrPhadeskc/3te
+UbjPKay7FOoghb6EQp9IoW+n8hxF5bl2k2VX3zO0WXb9vY9LMQdz2NA2OKjs
+44wxVDio7HNS2Xem8j8AFov1qy/UT4TN
+               "], {{0, 24.}, {24., 0}}, {0, 255}, ColorFunction -> RGBColor, 
+               ImageResolution -> {150, 150}], 
+              BoxForm`ImageTag[
+              "Byte", ColorSpace -> ColorProfileData[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIj
+UFABpJaBSSGxoCCHCagqN6+kKMjdSSEiMkqB/QkDFwMrAx+DMgNnYnJxgWNA
+gA9INYxGBd+uMYAMZLisCzILUx4v4EpJLU4G0n+AODu5oKiEgYExA8hWLi8p
+ALF7gGyRpGwwewGIXQR0IJC9BcROh7BPgNVA2HfAakKCnIHsD0A2XxKYDfYs
+XzqEDQoTPqi9ICDomJKflKoA8r2GoaWlhSaJfiAISlIrSkC0c35BZVFmekaJ
+giMwpFIVPPOS9XQUjAyMDBgYQOEOUf05EByejGJnEGIIgBCbI8HA4L+UgYHl
+D0LMpJeBYYEOAwP/VISYmiEDg4A+A8O+OcmlRWVQYxiZjBkYCPEBzyVWug==
+
+                 "], "RGB", "XYZ"], Interleaving -> True, Magnification -> 
+               Automatic], Selectable -> False], DefaultBaseStyle -> 
+             "ImageGraphics", ImageSizeRaw -> {24., 24.}, 
+             PlotRange -> {{0, 24.}, {0, 24.}}, ImageSize -> 20], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"String\"", "SummaryItem"]}], "\[SpanFromLeft]"}, {
+               RowBox[{
+                 TagBox["\"ID: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["None", "SummaryItem"]}], "\[SpanFromLeft]"}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}]}, 
+       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+     "SummaryPanel"],
+    DynamicModuleValues:>{}], "]"}],
+  AssessmentResultObject[<|
+   "Score" -> 0, "MaxScore" -> 1, "MinScore" -> 0, "AnswerCorrect" -> False, 
+    "GivenAnswer" -> "dog", "Explanation" -> None, "Timestamp" -> 
+    DateObject[{2023, 1, 22, 19, 26, 41.6854606`9.37255948189125}, "Instant", 
+      "Gregorian", -5.], "AssessmentOptions" -> {}, "AnswerComparisonMethod" -> 
+    "String"|>],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{3.8834224017479205`*^9},
+ CellLabel->"Out[35]=",
+ CellID->1185878,ExpressionUUID->"d5b29dd0-e22f-4002-aaa1-dcf07deeb5c9"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"AssessmentFunction", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"\"\<Dog\>\"", "\[Rule]", "True"}], ",", 
+     RowBox[{"\"\<Cat\>\"", "\[Rule]", "False"}]}], "}"}], "]"}], "[", 
+  "\"\<Dog\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.883422393728273*^9, 3.8834224047632627`*^9}},
+ CellLabel->"In[36]:=",
+ CellID->212789556,ExpressionUUID->"910a57be-7370-434d-a5bf-e81c1b3e03e7"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["AssessmentResultObject",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+    TemplateBox[{
+      PaneSelectorBox[{False -> GridBox[{{
+            GraphicsBox[
+             TagBox[
+              RasterBox[CompressedData["
+1:eJztmk1PE1EUhom6cOlf8C+4cuvSLcYfABGJG8QWJBijLtTEBUYTUTREIAZj
+QCOJYqwxFYHEfkCh1FKpTITUUprSDwotHTrt8Z5RGqS3zp3vxsybnCbtzL3z
+Pndm7rlnpsebLzaeP9TQ0GA/Sj4am7pO2WxN3WeOkS9n2+wXWttazp1u62hp
+bbGdbD5MfjzxJ46QAEuWLDGL53kIBoPgdrvB5XJpGj6fD9LptCEcyOB0OnWL
+yclJEARBdw48D3pyYBQKBd058PzryRAIBHRnoHGEw2GIx+OaBN4b5XJZtqdS
+WSBRUsWBxzdbH7lheBfuh2KJZ25TbxxfIm+h19MuxqvFe7BT3GZqV08cC+tT
+FYa9GF64DdlCUrJtvXBwKT/xfamKo3/2CqTy65Lt64FjLctBn7ejiqHP2ylu
+Y5HZHEky1v2z3VUMeG641AJzP2ZybPMZGJq/QWFoh0B8WlZfZnEUinl4EbhD
+ZXBFxmX3ZwaHUCrCWOgBlQFzhxIZzYH53bE8SGV4s9Qn5nIlMppjavU1lWE0
+2AO7gvL1pJEcczEnleGZ/ybkd7dU9S2HA8/5aiak6DjhjVkqw1PfVcjsJJTa
+r4iVY4tPk/XOfXFel8sS2VyCR157FcPjmcsQ315VzYBi4UAfOG771wrZQoqp
+/0TuJzyZ6apieOixkfFY1ISBhQNzFW3NMBq8K86f/xKu7wbmrlGvp1DCrRkD
+CwdqPjZB9fJ55WXNfnG9jWtVWruZ6AdJXxzHibW9x+OBXC6nCQfq/fcBqie8
+fw8K6x+sHWj7T/wYkfSUzWb/8uT3+zXj4IUdMr63qPdqMh+r7If16Dip5WgM
+WOOVGepV9LDfE3rUigO1kVsjvjur/D0n189eDsPxpjHgXFcs7Ur6MYID9S3h
+pfp0LA+BN+qgbkNO1vrUKA5UrTGnBc5XrHO00Rw434587ZFkwLyRyEVlMRjJ
+gdokuQHzYS0GzN+RzbBsBqM5UCvpYE0O2nxcrxxi+33Pm/ZiPvZJIcFvmcGB
++WAs1FthmCb1hVqZwYHC2mFw7ro49yp5nntQZnGgkvk1yXUjq8zk0FIWx//H
+oeV7HKWBHtRy1GOwcBjxnlNtoEcp6f3eWYtAj1LS838AagM9oTf0aMmSJXb9
+AkLii7U=
+               "], {{0, 24.}, {24., 0}}, {0, 255}, ColorFunction -> RGBColor, 
+               ImageResolution -> {150, 150}], 
+              BoxForm`ImageTag[
+              "Byte", ColorSpace -> ColorProfileData[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIj
+UFABpJaBSSGxoCCHCagqN6+kKMjdSSEiMkqB/QkDFwMrAy+DBgNPYnJxgWNA
+gA9INYxGBd+uMYAMZLisCzILUx4v4EpJLU4G0n+AODu5oKiEgYExA8hWLi8p
+ALF7gGyRpGwwewGIXQR0IJC9BcROh7BPgNVA2HfAakKCnIHsD0A2XxKYDfYs
+XzqEDQoTPqi9ICDomJKflKoA8r2GoaWlhSaJfiAISlIrSkC0c35BZVFmekaJ
+giMwpFIVPPOS9XQUjAyMDBgYQOEOUf05EByejGJnEGIIgBCbI8HA4L+UgYHl
+D0LMpJeBYYEOAwP/VISYmiEDg4A+A8O+OcmlRWVQYxiZjBkYCPEB3RZWwQ==
+
+                 "], "RGB", "XYZ"], Interleaving -> True, Magnification -> 
+               Automatic], Selectable -> False], DefaultBaseStyle -> 
+             "ImageGraphics", ImageSizeRaw -> {24., 24.}, 
+             PlotRange -> {{0, 24.}, {0, 24.}}, ImageSize -> 20], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"String\"", "SummaryItem"]}], "\[SpanFromLeft]"}, {
+               RowBox[{
+                 TagBox["\"ID: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["None", "SummaryItem"]}], "\[SpanFromLeft]"}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}], True -> GridBox[{{
+            GraphicsBox[
+             TagBox[
+              RasterBox[CompressedData["
+1:eJztmk1PE1EUhom6cOlf8C+4cuvSLcYfABGJG8QWJBijLtTEBUYTUTREIAZj
+QCOJYqwxFYHEfkCh1FKpTITUUprSDwotHTrt8Z5RGqS3zp3vxsybnCbtzL3z
+Pndm7rlnpsebLzaeP9TQ0GA/Sj4am7pO2WxN3WeOkS9n2+wXWttazp1u62hp
+bbGdbD5MfjzxJ46QAEuWLDGL53kIBoPgdrvB5XJpGj6fD9LptCEcyOB0OnWL
+yclJEARBdw48D3pyYBQKBd058PzryRAIBHRnoHGEw2GIx+OaBN4b5XJZtqdS
+WSBRUsWBxzdbH7lheBfuh2KJZ25TbxxfIm+h19MuxqvFe7BT3GZqV08cC+tT
+FYa9GF64DdlCUrJtvXBwKT/xfamKo3/2CqTy65Lt64FjLctBn7ejiqHP2ylu
+Y5HZHEky1v2z3VUMeG641AJzP2ZybPMZGJq/QWFoh0B8WlZfZnEUinl4EbhD
+ZXBFxmX3ZwaHUCrCWOgBlQFzhxIZzYH53bE8SGV4s9Qn5nIlMppjavU1lWE0
+2AO7gvL1pJEcczEnleGZ/ybkd7dU9S2HA8/5aiak6DjhjVkqw1PfVcjsJJTa
+r4iVY4tPk/XOfXFel8sS2VyCR157FcPjmcsQ315VzYBi4UAfOG771wrZQoqp
+/0TuJzyZ6apieOixkfFY1ISBhQNzFW3NMBq8K86f/xKu7wbmrlGvp1DCrRkD
+CwdqPjZB9fJ55WXNfnG9jWtVWruZ6AdJXxzHibW9x+OBXC6nCQfq/fcBqie8
+fw8K6x+sHWj7T/wYkfSUzWb/8uT3+zXj4IUdMr63qPdqMh+r7If16Dip5WgM
+WOOVGepV9LDfE3rUigO1kVsjvjur/D0n189eDsPxpjHgXFcs7Ur6MYID9S3h
+pfp0LA+BN+qgbkNO1vrUKA5UrTGnBc5XrHO00Rw434587ZFkwLyRyEVlMRjJ
+gdokuQHzYS0GzN+RzbBsBqM5UCvpYE0O2nxcrxxi+33Pm/ZiPvZJIcFvmcGB
++WAs1FthmCb1hVqZwYHC2mFw7ro49yp5nntQZnGgkvk1yXUjq8zk0FIWx//H
+oeV7HKWBHtRy1GOwcBjxnlNtoEcp6f3eWYtAj1LS838AagM9oTf0aMmSJXb9
+AkLii7U=
+               "], {{0, 24.}, {24., 0}}, {0, 255}, ColorFunction -> RGBColor, 
+               ImageResolution -> {150, 150}], 
+              BoxForm`ImageTag[
+              "Byte", ColorSpace -> ColorProfileData[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIj
+UFABpJaBSSGxoCCHCagqN6+kKMjdSSEiMkqB/QkDFwMrAy+DBgNPYnJxgWNA
+gA9INYxGBd+uMYAMZLisCzILUx4v4EpJLU4G0n+AODu5oKiEgYExA8hWLi8p
+ALF7gGyRpGwwewGIXQR0IJC9BcROh7BPgNVA2HfAakKCnIHsD0A2XxKYDfYs
+XzqEDQoTPqi9ICDomJKflKoA8r2GoaWlhSaJfiAISlIrSkC0c35BZVFmekaJ
+giMwpFIVPPOS9XQUjAyMDBgYQOEOUf05EByejGJnEGIIgBCbI8HA4L+UgYHl
+D0LMpJeBYYEOAwP/VISYmiEDg4A+A8O+OcmlRWVQYxiZjBkYCPEB3RZWwQ==
+
+                 "], "RGB", "XYZ"], Interleaving -> True, Magnification -> 
+               Automatic], Selectable -> False], DefaultBaseStyle -> 
+             "ImageGraphics", ImageSizeRaw -> {24., 24.}, 
+             PlotRange -> {{0, 24.}, {0, 24.}}, ImageSize -> 20], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"String\"", "SummaryItem"]}], "\[SpanFromLeft]"}, {
+               RowBox[{
+                 TagBox["\"ID: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["None", "SummaryItem"]}], "\[SpanFromLeft]"}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}]}, 
+       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+     "SummaryPanel"],
+    DynamicModuleValues:>{}], "]"}],
+  AssessmentResultObject[<|
+   "Score" -> 1, "MaxScore" -> 1, "MinScore" -> 0, "AnswerCorrect" -> True, 
+    "GivenAnswer" -> "Dog", "Explanation" -> None, "Timestamp" -> 
+    DateObject[{2023, 1, 22, 19, 26, 44.903527`9.40485532365931}, "Instant", 
+      "Gregorian", -5.], "AssessmentOptions" -> {}, "AnswerComparisonMethod" -> 
+    "String"|>],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{3.8834224049659786`*^9},
+ CellLabel->"Out[36]=",
+ CellID->131613601,ExpressionUUID->"53778b6c-35b1-4631-97da-0028947feeef"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"AssessmentFunction", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"\"\<Dog\>\"", "\[Rule]", "True"}], ",", 
+     RowBox[{"\"\<Cat\>\"", "\[Rule]", "False"}]}], "}"}], "]"}], "[", 
+  "\"\<Cat\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.883422393728273*^9, 3.883422408476651*^9}},
+ CellLabel->"In[37]:=",
+ CellID->268116079,ExpressionUUID->"5e9fd181-3a49-49eb-96f3-c5b52bd56217"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["AssessmentResultObject",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+    TemplateBox[{
+      PaneSelectorBox[{False -> GridBox[{{
+            GraphicsBox[
+             TagBox[
+              RasterBox[CompressedData["
+1:eJztmkFKw0AUhoO6cOkVvIIrtyIuiruKB2gxFjcRUkG8UVX0CMFlcoBAycpt
+jpDVmB+MhmIyk5nOTPp8P7xCSufl/8hk3kumx/P76e1eEATLw/pjOns8i+PZ
+09VRfXAdLe8WUXgziR7CRRifzvfrL0++46AOwWKxlFVVlcjzXGRZJtI0HVXA
+E7zBo0z4XZIkow54lAnMvn3KAh5lwvXz7VMW8DiUoygKUZal14AHUw7k8S14
+YA7m2LZsc3x+JGL9/mrsEzmQq0s2OXDe58sLsZqci/Xbiz5DPRY5kKuLxRZH
+m6EJHZaGoYkuFlscmAft8+uwbDL85PhjntqcV50+FFiGjrV9n+uw6Ixxse4O
+8aV7DV3VDxV/JvPQZR3s82nC4Jqjj8V0bfPRl6iwDK01vvqrPhadeskc/3te
+UbjPKay7FOoghb6EQp9IoW+n8hxF5bl2k2VX3zO0WXb9vY9LMQdz2NA2OKjs
+44wxVDio7HNS2Xem8j8AFov1qy/UT4TN
+               "], {{0, 24.}, {24., 0}}, {0, 255}, ColorFunction -> RGBColor, 
+               ImageResolution -> {150, 150}], 
+              BoxForm`ImageTag[
+              "Byte", ColorSpace -> ColorProfileData[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIj
+UFABpJaBSSGxoCCHCagqN6+kKMjdSSEiMkqB/QkDFwMrAx+DMgNnYnJxgWNA
+gA9INYxGBd+uMYAMZLisCzILUx4v4EpJLU4G0n+AODu5oKiEgYExA8hWLi8p
+ALF7gGyRpGwwewGIXQR0IJC9BcROh7BPgNVA2HfAakKCnIHsD0A2XxKYDfYs
+XzqEDQoTPqi9ICDomJKflKoA8r2GoaWlhSaJfiAISlIrSkC0c35BZVFmekaJ
+giMwpFIVPPOS9XQUjAyMDBgYQOEOUf05EByejGJnEGIIgBCbI8HA4L+UgYHl
+D0LMpJeBYYEOAwP/VISYmiEDg4A+A8O+OcmlRWVQYxiZjBkYCPEBzyVWug==
+
+                 "], "RGB", "XYZ"], Interleaving -> True, Magnification -> 
+               Automatic], Selectable -> False], DefaultBaseStyle -> 
+             "ImageGraphics", ImageSizeRaw -> {24., 24.}, 
+             PlotRange -> {{0, 24.}, {0, 24.}}, ImageSize -> 20], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"String\"", "SummaryItem"]}], "\[SpanFromLeft]"}, {
+               RowBox[{
+                 TagBox["\"ID: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["None", "SummaryItem"]}], "\[SpanFromLeft]"}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}], True -> GridBox[{{
+            GraphicsBox[
+             TagBox[
+              RasterBox[CompressedData["
+1:eJztmkFKw0AUhoO6cOkVvIIrtyIuiruKB2gxFjcRUkG8UVX0CMFlcoBAycpt
+jpDVmB+MhmIyk5nOTPp8P7xCSufl/8hk3kumx/P76e1eEATLw/pjOns8i+PZ
+09VRfXAdLe8WUXgziR7CRRifzvfrL0++46AOwWKxlFVVlcjzXGRZJtI0HVXA
+E7zBo0z4XZIkow54lAnMvn3KAh5lwvXz7VMW8DiUoygKUZal14AHUw7k8S14
+YA7m2LZsc3x+JGL9/mrsEzmQq0s2OXDe58sLsZqci/Xbiz5DPRY5kKuLxRZH
+m6EJHZaGoYkuFlscmAft8+uwbDL85PhjntqcV50+FFiGjrV9n+uw6Ixxse4O
+8aV7DV3VDxV/JvPQZR3s82nC4Jqjj8V0bfPRl6iwDK01vvqrPhadeskc/3te
+UbjPKay7FOoghb6EQp9IoW+n8hxF5bl2k2VX3zO0WXb9vY9LMQdz2NA2OKjs
+44wxVDio7HNS2Xem8j8AFov1qy/UT4TN
+               "], {{0, 24.}, {24., 0}}, {0, 255}, ColorFunction -> RGBColor, 
+               ImageResolution -> {150, 150}], 
+              BoxForm`ImageTag[
+              "Byte", ColorSpace -> ColorProfileData[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIj
+UFABpJaBSSGxoCCHCagqN6+kKMjdSSEiMkqB/QkDFwMrAx+DMgNnYnJxgWNA
+gA9INYxGBd+uMYAMZLisCzILUx4v4EpJLU4G0n+AODu5oKiEgYExA8hWLi8p
+ALF7gGyRpGwwewGIXQR0IJC9BcROh7BPgNVA2HfAakKCnIHsD0A2XxKYDfYs
+XzqEDQoTPqi9ICDomJKflKoA8r2GoaWlhSaJfiAISlIrSkC0c35BZVFmekaJ
+giMwpFIVPPOS9XQUjAyMDBgYQOEOUf05EByejGJnEGIIgBCbI8HA4L+UgYHl
+D0LMpJeBYYEOAwP/VISYmiEDg4A+A8O+OcmlRWVQYxiZjBkYCPEBzyVWug==
+
+                 "], "RGB", "XYZ"], Interleaving -> True, Magnification -> 
+               Automatic], Selectable -> False], DefaultBaseStyle -> 
+             "ImageGraphics", ImageSizeRaw -> {24., 24.}, 
+             PlotRange -> {{0, 24.}, {0, 24.}}, ImageSize -> 20], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"String\"", "SummaryItem"]}], "\[SpanFromLeft]"}, {
+               RowBox[{
+                 TagBox["\"ID: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["None", "SummaryItem"]}], "\[SpanFromLeft]"}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}]}, 
+       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+     "SummaryPanel"],
+    DynamicModuleValues:>{}], "]"}],
+  AssessmentResultObject[<|
+   "Score" -> 0, "MaxScore" -> 1, "MinScore" -> 0, "AnswerCorrect" -> False, 
+    "GivenAnswer" -> "Cat", "Explanation" -> None, "Timestamp" -> 
+    DateObject[{2023, 1, 22, 19, 26, 48.820282`9.441175141936874}, "Instant", 
+      "Gregorian", -5.], "AssessmentOptions" -> {}, "AnswerComparisonMethod" -> 
+    "String"|>],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{3.883422408882745*^9},
+ CellLabel->"Out[37]=",
+ CellID->184983977,ExpressionUUID->"642591ec-7428-4937-bce7-c561c65ed66a"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{808.5, 765.75},
-WindowMargins->{{Automatic, Automatic}, {Automatic, Automatic}},
+WindowSize->{1440., 741.75},
+WindowMargins->{{-6, Automatic}, {Automatic, -6}},
 TaggingRules->{
  "ResourceType" -> "ComputationalEssay", "ResourceCreateNotebook" -> True, 
   "TemplateVersion" -> <||>, "CreationTimestamp" -> 
@@ -2231,16 +5040,16 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Examples", 113631, 2189},
- {"Your Essay Title", 113817, 2193},
- {"AuthorName", 113997, 2197},
- {"Abstract", 114156, 2201},
- {"TemplateCell", 114337, 2205},
- {"SectionHeader", 114519, 2209},
- {"ExampleTopicSentence", 114695, 2213},
- {"ExampleCodeText", 114870, 2217},
- {"ExampleInput", 115040, 2221},
- {"ExampleOutput", 115206, 2225}
+ {"Examples", 245228, 4998},
+ {"Your Essay Title", 245414, 5002},
+ {"AuthorName", 245594, 5006},
+ {"Abstract", 245753, 5010},
+ {"TemplateCell", 245934, 5014},
+ {"SectionHeader", 246116, 5018},
+ {"ExampleTopicSentence", 246292, 5022},
+ {"ExampleCodeText", 246467, 5026},
+ {"ExampleInput", 246637, 5030},
+ {"ExampleOutput", 246803, 5034}
  }
 *)
 (*NotebookFileOutline
@@ -2277,11 +5086,167 @@ Cell[1996, 67, 95, 1, 32, "Item",ExpressionUUID->"acdb2ad8-0a92-4f50-8bae-de040b
  CellID->316654537],
 Cell[2094, 70, 95, 1, 32, "Item",ExpressionUUID->"8090181c-e17a-4c99-bc3c-696fb19cb01c",
  CellID->316654538]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2226, 76, 183, 2, 67, "Section",ExpressionUUID->"4c8d536a-78f7-4784-96b9-dd28b5d47887",
+ CellID->357610756],
+Cell[2412, 80, 258, 5, 58, "Text",ExpressionUUID->"15f37a6b-dbbd-40eb-9ab2-53f1724f795f",
+ CellID->788622175],
+Cell[CellGroupData[{
+Cell[2695, 89, 639, 14, 28, "Input",ExpressionUUID->"9cb86b96-d973-4a67-9027-f1af24000b7e",
+ CellID->577054706],
+Cell[3337, 105, 3662, 76, 142, "Output",ExpressionUUID->"0a29737c-f04e-4979-b537-5d8457f78331",
+ CellID->32402721]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7036, 186, 206, 3, 28, "Input",ExpressionUUID->"d763dbda-ed4f-47ae-8bb3-3a1979d65cf0",
+ CellID->359644712],
+Cell[7245, 191, 4031, 82, 142, "Output",ExpressionUUID->"da07d483-0d37-4e81-8ec5-47e9c7390e62",
+ CellID->82156915]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11313, 278, 208, 3, 28, "Input",ExpressionUUID->"f6515c16-e092-42dc-ba83-0303d9612f23",
+ CellID->119805479],
+Cell[11524, 283, 4034, 82, 142, "Output",ExpressionUUID->"9f6a6d25-e988-4b18-a142-a498e5fe9db8",
+ CellID->259694791]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15595, 370, 208, 3, 28, "Input",ExpressionUUID->"74edf4af-5327-402c-a8c0-6fdeff214e81",
+ CellID->436471380],
+Cell[15806, 375, 4022, 82, 142, "Output",ExpressionUUID->"f792999c-bc2d-4020-a7d4-e2f6648046a1",
+ CellID->6589608]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[19865, 462, 207, 3, 28, "Input",ExpressionUUID->"40acde37-3a3f-4420-951e-82d9675a6039",
+ CellID->78506887],
+Cell[20075, 467, 4030, 82, 142, "Output",ExpressionUUID->"3dee259c-c2c6-49df-945f-06a90522968d",
+ CellID->278176432]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[24142, 554, 494, 10, 28, "Input",ExpressionUUID->"2956518d-3c28-4625-a3ad-b23fcf584dd0",
+ CellID->103507281],
+Cell[24639, 566, 3374, 70, 115, "Output",ExpressionUUID->"a9656e29-8554-41a8-80cc-b4999b657b7a",
+ CellID->51884302]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[28050, 641, 216, 3, 28, "Input",ExpressionUUID->"5168a42b-5675-4da8-9a52-0adc46c23678",
+ CellID->87451780],
+Cell[28269, 646, 3726, 76, 115, "Output",ExpressionUUID->"9897a3c9-0097-43c4-b6e1-f66892dc6f1a",
+ CellID->54158003]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[32032, 727, 215, 3, 28, "Input",ExpressionUUID->"7d41f141-73af-4454-a080-a4818cf058ee",
+ CellID->503186597],
+Cell[32250, 732, 3731, 76, 115, "Output",ExpressionUUID->"6021e255-b3ff-47e3-a178-aa6aa9e431bc",
+ CellID->337889415]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[36018, 813, 491, 10, 28, "Input",ExpressionUUID->"429240ae-9aeb-4dd7-85a3-1aae2f64885a",
+ CellID->255241873],
+Cell[36512, 825, 3376, 70, 115, "Output",ExpressionUUID->"560dd9f0-6512-4653-875f-e62552026932",
+ CellID->357771779]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[39925, 900, 214, 3, 28, "Input",ExpressionUUID->"e2de7b54-beb1-4eac-aae8-f102221abe05",
+ CellID->133785065],
+Cell[40142, 905, 3725, 76, 115, "Output",ExpressionUUID->"b2b71dae-1642-41ca-aad4-f64f00b846a0",
+ CellID->371105]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[43904, 986, 216, 3, 28, "Input",ExpressionUUID->"35d1b55f-9e2a-4406-849a-66ff02a62465",
+ CellID->63569359],
+Cell[44123, 991, 3730, 76, 115, "Output",ExpressionUUID->"1772314d-9b6a-48d5-bccd-dacbd510b51e",
+ CellID->666308739]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[47890, 1072, 374, 8, 28, "Input",ExpressionUUID->"f0b6384b-d978-4d6e-abc5-f1de913474fb",
+ CellID->728969434],
+Cell[48267, 1082, 6388, 119, 56, "Output",ExpressionUUID->"0efd85bd-addf-4370-b0b2-fdead347dda2",
+ CellID->276398161]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[54692, 1206, 288, 8, 28, "Input",ExpressionUUID->"a57e1eb6-fae0-4255-9b80-2ede5f6281fc",
+ CellID->8036993],
+Cell[54983, 1216, 6383, 119, 56, "Output",ExpressionUUID->"389fd283-1cfa-4774-93b2-7f91aea43afc",
+ CellID->207656108]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[61403, 1340, 364, 9, 28, "Input",ExpressionUUID->"4d9797ed-0d28-4913-a874-cb1d9a21791b",
+ CellID->122739528],
+Cell[61770, 1351, 6391, 119, 56, "Output",ExpressionUUID->"4fbaab79-5a53-45cd-b689-a37823bebecf",
+ CellID->451333537]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[68198, 1475, 422, 9, 28, "Input",ExpressionUUID->"219a0033-0265-4865-8653-2bd3f5a84be7",
+ CellID->664418113],
+Cell[68623, 1486, 4994, 104, 109, "Output",ExpressionUUID->"956e1651-1426-4ca5-916b-c78fe34ef368",
+ CellID->357454534]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[73654, 1595, 210, 3, 28, "Input",ExpressionUUID->"a6f7023c-9ed1-4483-b561-493767fc5ab1",
+ CellID->304986547],
+Cell[73867, 1600, 5304, 109, 112, "Output",ExpressionUUID->"9c8b7daa-500e-48a6-b42c-02f3c1fd1dcb",
+ CellID->529644739]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[79208, 1714, 210, 3, 28, "Input",ExpressionUUID->"3a04ee37-e882-4cab-aa48-6397bdfb0ad4",
+ CellID->571583838],
+Cell[79421, 1719, 5329, 109, 112, "Output",ExpressionUUID->"271ae394-ef25-42bf-9dcb-d4235ed947b3",
+ CellID->387261565]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[84787, 1833, 209, 3, 28, "Input",ExpressionUUID->"39d5929f-1c5e-493c-a339-964cf000db81",
+ CellID->42651779],
+Cell[84999, 1838, 5330, 109, 112, "Output",ExpressionUUID->"27199f14-e9c0-463e-9872-d8c1a7395542",
+ CellID->9968185]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[90366, 1952, 477, 11, 28, "Input",ExpressionUUID->"d9f49cf8-756d-4623-a649-2583aaa6461b",
+ CellID->267028952],
+Cell[90846, 1965, 4119, 86, 97, "Output",ExpressionUUID->"6295f56d-3d75-4423-a579-4008df6ab571",
+ CellID->262518575]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[95002, 2056, 208, 3, 28, "Input",ExpressionUUID->"5bd1865f-3a6d-436b-aa5d-836c4a488ce3",
+ CellID->162858871],
+Cell[95213, 2061, 4139, 87, 97, "Output",ExpressionUUID->"7a7a60c0-f1c8-4840-993d-0ba913d16514",
+ CellID->204451556]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[99389, 2153, 470, 11, 28, "Input",ExpressionUUID->"6541f8ce-ff74-4df6-a5d4-b524a67f4a6d",
+ CellID->210476375],
+Cell[99862, 2166, 5153, 125, 119, "Output",ExpressionUUID->"6af36912-9cd1-4b8d-964b-af07958cf573",
+ CellID->220607441]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[105052, 2296, 406, 10, 28, "Input",ExpressionUUID->"ba5d4754-0f21-4ffe-b71f-1447a4f8145a",
+ CellID->13895665],
+Cell[105461, 2308, 411, 8, 28, "Message",ExpressionUUID->"eedaaeb6-58c4-4be0-ad5e-0e277fef693c",
+ CellID->200932893],
+Cell[105875, 2318, 6310, 122, 63, "Output",ExpressionUUID->"13fc68b9-3fad-4e46-9e47-576c036f6d18",
+ CellID->455240130]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[112222, 2445, 420, 10, 28, "Input",ExpressionUUID->"67497c25-c4ed-4242-aee2-7bc8d12d2dba",
+ CellID->1025791628],
+Cell[112645, 2457, 6311, 122, 63, "Output",ExpressionUUID->"d5b29dd0-e22f-4002-aaa1-dcf07deeb5c9",
+ CellID->1185878]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[118993, 2584, 419, 10, 28, "Input",ExpressionUUID->"910a57be-7370-434d-a5bf-e81c1b3e03e7",
+ CellID->212789556],
+Cell[119415, 2596, 7605, 144, 63, "Output",ExpressionUUID->"53778b6c-35b1-4631-97da-0028947feeef",
+ CellID->131613601]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[127057, 2745, 417, 10, 28, "Input",ExpressionUUID->"5e9fd181-3a49-49eb-96f3-c5b52bd56217",
+ CellID->268116079],
+Cell[127477, 2757, 6311, 122, 86, "Output",ExpressionUUID->"642591ec-7428-4937-bce7-c561c65ed66a",
+ CellID->184983977]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
